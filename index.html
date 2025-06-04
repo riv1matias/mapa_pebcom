@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_b6e89a03f319d22c999180bdc2cf477e {
+                #map_05d585d6195427bd15e07280565c58f2 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -565,7 +565,7 @@
           }
 
           function exportToExcel() {
-            var excelUrl = 'https://raw.githubusercontent.com/riv1matias/mapa_op_cables/main/mapa_interactivo_PEBCOM.xlsx';
+            var excelUrl = 'https://raw.githubusercontent.com/riv1matias/mapa_pebcom/main/mapa_interactivo_PEBCOM.xlsx';
             var nombreArchivo = 'mapa_interactivo_PEBCOM.xlsx';
             console.log('Intentando descargar Excel desde:', excelUrl);
 
@@ -879,7 +879,7 @@
         </script>
         
     
-            <div class="folium-map" id="map_b6e89a03f319d22c999180bdc2cf477e" ></div>
+            <div class="folium-map" id="map_05d585d6195427bd15e07280565c58f2" ></div>
         
     
         <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
@@ -1457,8 +1457,8 @@
 <script>
     
     
-            var map_b6e89a03f319d22c999180bdc2cf477e = L.map(
-                "map_b6e89a03f319d22c999180bdc2cf477e",
+            var map_05d585d6195427bd15e07280565c58f2 = L.map(
+                "map_05d585d6195427bd15e07280565c58f2",
                 {
                     center: [-34.6037, -58.3816],
                     crs: L.CRS.EPSG3857,
@@ -1475,7 +1475,7 @@
 
         
     
-            var tile_layer_58a241c96da8a24c8682697cf049ee7d = L.tileLayer(
+            var tile_layer_d2543b2b2a9d7f2c49edc5f8db011b97 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -1492,10 +1492,10 @@
             );
         
     
-            tile_layer_58a241c96da8a24c8682697cf049ee7d.addTo(map_b6e89a03f319d22c999180bdc2cf477e);
+            tile_layer_d2543b2b2a9d7f2c49edc5f8db011b97.addTo(map_05d585d6195427bd15e07280565c58f2);
         
     
-            var marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2 = L.markerClusterGroup(
+            var marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7 = L.markerClusterGroup(
                 {
   "spiderfyOnMaxZoom": true,
   "showCoverageOnHover": true,
@@ -1505,14 +1505,14 @@
             );
         
     
-            var marker_014fdd5286ae5db7db24eab49ff0a2ba = L.marker(
+            var marker_cec601a0b09dfe7e93b2534cd80ce961 = L.marker(
                 [-34.59322, -58.395498],
                 {
 }
-            ).addTo(marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2);
+            ).addTo(marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7);
         
     
-            var icon_9f2c382270672097fbc0913f63be6ffe = L.AwesomeMarkers.icon(
+            var icon_2533e28681dd7de4bbd1b2e72a4d94b8 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -1523,34 +1523,34 @@
             );
         
     
-        var popup_c6cc41891d83b1972b4b8908b512adbb = L.popup({
+        var popup_2da9c855299d52cadcd9d6c84be47de1 = L.popup({
   "maxWidth": 200,
 });
 
         
             
-                var html_24f7265ccc5e2dd58806e93e47252fe9 = $(`<div id="html_24f7265ccc5e2dd58806e93e47252fe9" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="826" data-comuna="2">             <b>Dirección:</b> AYACUCHO 1307<br>             <b>Comuna:</b> 2<br>             <b>OT:</b> 781141479<br>             <b>Observaciones:</b><br>Colocar terminal para traspasar el nodo<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Nodo Teco<br>             <b>Tipo de Elemento:</b> Terminal<br>             <b>Caso:</b> 826<br>             <br><b><a href="#" onclick="mostrarFotos('826'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.59322,-58.395498" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('826');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
-                popup_c6cc41891d83b1972b4b8908b512adbb.setContent(html_24f7265ccc5e2dd58806e93e47252fe9);
+                var html_152a62712c3c4344a4470adcd7d7c5e0 = $(`<div id="html_152a62712c3c4344a4470adcd7d7c5e0" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="826" data-comuna="2">             <b>Dirección:</b> AYACUCHO 1307<br>             <b>Comuna:</b> 2<br>             <b>OT:</b> 781141479<br>             <b>Observaciones:</b><br>Colocar terminal para traspasar el nodo<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Nodo Teco<br>             <b>Tipo de Elemento:</b> Terminal<br>             <b>Caso:</b> 826<br>             <br><b><a href="#" onclick="mostrarFotos('826'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.59322,-58.395498" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('826');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
+                popup_2da9c855299d52cadcd9d6c84be47de1.setContent(html_152a62712c3c4344a4470adcd7d7c5e0);
             
         
 
-        marker_014fdd5286ae5db7db24eab49ff0a2ba.bindPopup(popup_c6cc41891d83b1972b4b8908b512adbb)
+        marker_cec601a0b09dfe7e93b2534cd80ce961.bindPopup(popup_2da9c855299d52cadcd9d6c84be47de1)
         ;
 
         
     
     
-                marker_014fdd5286ae5db7db24eab49ff0a2ba.setIcon(icon_9f2c382270672097fbc0913f63be6ffe);
+                marker_cec601a0b09dfe7e93b2534cd80ce961.setIcon(icon_2533e28681dd7de4bbd1b2e72a4d94b8);
             
     
-            var marker_e476a2c941e0cea1883a1c9cb1c92d05 = L.marker(
+            var marker_30f65a66908c94b2809fe9322adbbf8f = L.marker(
                 [-34.588287, -58.406882],
                 {
 }
-            ).addTo(marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2);
+            ).addTo(marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7);
         
     
-            var icon_6d94cfc013b6efe8058cb8a4b724c612 = L.AwesomeMarkers.icon(
+            var icon_81811af0781394aac6bc511ee3e6dd06 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -1561,34 +1561,34 @@
             );
         
     
-        var popup_251ab1098050912f49d0dd8f3969459d = L.popup({
+        var popup_8735deba10e5cf9e2581bb0ec45a2e38 = L.popup({
   "maxWidth": 208,
 });
 
         
             
-                var html_5a565391a13066b16724035083aff8a8 = $(`<div id="html_5a565391a13066b16724035083aff8a8" style="width: 100.0%; height: 100.0%;">         <div style='width: 208px; font: 12px Arial;' data-caso="1497" data-comuna="2">             <b>Dirección:</b> SANCHEZ DE BUSTAMANTE 2064<br>             <b>Comuna:</b> 2<br>             <b>OT:</b> 784804268<br>             <b>Observaciones:</b><br>Equipo de TLC ya traspasado solo Retirar Columna<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Nodo TLC<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 1497<br>             <br><b><a href="#" onclick="mostrarFotos('1497'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.588287,-58.406882" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('1497');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
-                popup_251ab1098050912f49d0dd8f3969459d.setContent(html_5a565391a13066b16724035083aff8a8);
+                var html_91ab7dba4b4cb88270ab250f57d7fda6 = $(`<div id="html_91ab7dba4b4cb88270ab250f57d7fda6" style="width: 100.0%; height: 100.0%;">         <div style='width: 208px; font: 12px Arial;' data-caso="1497" data-comuna="2">             <b>Dirección:</b> SANCHEZ DE BUSTAMANTE 2064<br>             <b>Comuna:</b> 2<br>             <b>OT:</b> 784804268<br>             <b>Observaciones:</b><br>Equipo de TLC ya traspasado solo Retirar Columna<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Nodo TLC<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 1497<br>             <br><b><a href="#" onclick="mostrarFotos('1497'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.588287,-58.406882" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('1497');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
+                popup_8735deba10e5cf9e2581bb0ec45a2e38.setContent(html_91ab7dba4b4cb88270ab250f57d7fda6);
             
         
 
-        marker_e476a2c941e0cea1883a1c9cb1c92d05.bindPopup(popup_251ab1098050912f49d0dd8f3969459d)
+        marker_30f65a66908c94b2809fe9322adbbf8f.bindPopup(popup_8735deba10e5cf9e2581bb0ec45a2e38)
         ;
 
         
     
     
-                marker_e476a2c941e0cea1883a1c9cb1c92d05.setIcon(icon_6d94cfc013b6efe8058cb8a4b724c612);
+                marker_30f65a66908c94b2809fe9322adbbf8f.setIcon(icon_81811af0781394aac6bc511ee3e6dd06);
             
     
-            var marker_68b7a29cea8ffe3564ef345f79fb5ada = L.marker(
+            var marker_2e1c6a5c49c214f4c2a581f76e3bbd7c = L.marker(
                 [-34.587856, -58.411461],
                 {
 }
-            ).addTo(marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2);
+            ).addTo(marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7);
         
     
-            var icon_5fb6a833bafef11e67f6870ee6fecd2b = L.AwesomeMarkers.icon(
+            var icon_8f163fb718db3eb8d335f5a810248f18 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -1599,34 +1599,34 @@
             );
         
     
-        var popup_947efee59653a6b5670acf72cce3947b = L.popup({
+        var popup_ec54a57aee3d586e88c29303d27b3c83 = L.popup({
   "maxWidth": 200,
 });
 
         
             
-                var html_285275990f76517680782624949e90d3 = $(`<div id="html_285275990f76517680782624949e90d3" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="1561" data-comuna="2">             <b>Dirección:</b> BULNES 2012<br>             <b>Comuna:</b> 2<br>             <b>OT:</b> 784675885<br>             <b>Observaciones:</b><br>Falta traspaso y retiro<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Terminal<br>             <b>Caso:</b> 1561<br>             <br><b><a href="#" onclick="mostrarFotos('1561'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.587856,-58.411461" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('1561');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
-                popup_947efee59653a6b5670acf72cce3947b.setContent(html_285275990f76517680782624949e90d3);
+                var html_1e45623e4d5d303407fcc9cfe714a6c0 = $(`<div id="html_1e45623e4d5d303407fcc9cfe714a6c0" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="1561" data-comuna="2">             <b>Dirección:</b> BULNES 2012<br>             <b>Comuna:</b> 2<br>             <b>OT:</b> 784675885<br>             <b>Observaciones:</b><br>Falta traspaso y retiro<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Terminal<br>             <b>Caso:</b> 1561<br>             <br><b><a href="#" onclick="mostrarFotos('1561'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.587856,-58.411461" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('1561');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
+                popup_ec54a57aee3d586e88c29303d27b3c83.setContent(html_1e45623e4d5d303407fcc9cfe714a6c0);
             
         
 
-        marker_68b7a29cea8ffe3564ef345f79fb5ada.bindPopup(popup_947efee59653a6b5670acf72cce3947b)
+        marker_2e1c6a5c49c214f4c2a581f76e3bbd7c.bindPopup(popup_ec54a57aee3d586e88c29303d27b3c83)
         ;
 
         
     
     
-                marker_68b7a29cea8ffe3564ef345f79fb5ada.setIcon(icon_5fb6a833bafef11e67f6870ee6fecd2b);
+                marker_2e1c6a5c49c214f4c2a581f76e3bbd7c.setIcon(icon_8f163fb718db3eb8d335f5a810248f18);
             
     
-            var marker_856a3f54e868fc6ad253d485bb6aacb2 = L.marker(
+            var marker_da5c1190bd7201b7bd1c135742118fe9 = L.marker(
                 [-34.612301, -58.497719],
                 {
 }
-            ).addTo(marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2);
+            ).addTo(marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7);
         
     
-            var icon_b152188128922ecf2cb8f437edd71428 = L.AwesomeMarkers.icon(
+            var icon_76f78716a88c6a3233e389cc4e649e46 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -1637,34 +1637,34 @@
             );
         
     
-        var popup_eb9533bf7cc6847d746440e289bafd50 = L.popup({
+        var popup_5d6707c8ec144f44c63f5547f5cf3ba3 = L.popup({
   "maxWidth": 200,
 });
 
         
             
-                var html_46d7fe3c3058b24ad30f19a34f00e94a = $(`<div id="html_46d7fe3c3058b24ad30f19a34f00e94a" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="1928" data-comuna="10">             <b>Dirección:</b> ARREGUI 3910<br>             <b>Comuna:</b> 10<br>             <b>OT:</b> 800645483<br>             <b>Observaciones:</b><br><br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 1928<br>             <br><b><a href="#" onclick="mostrarFotos('1928'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.612301,-58.497719" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('1928');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
-                popup_eb9533bf7cc6847d746440e289bafd50.setContent(html_46d7fe3c3058b24ad30f19a34f00e94a);
+                var html_285515075afd19c06f04d64fd6f40be6 = $(`<div id="html_285515075afd19c06f04d64fd6f40be6" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="1928" data-comuna="10">             <b>Dirección:</b> ARREGUI 3910<br>             <b>Comuna:</b> 10<br>             <b>OT:</b> 800645483<br>             <b>Observaciones:</b><br><br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 1928<br>             <br><b><a href="#" onclick="mostrarFotos('1928'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.612301,-58.497719" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('1928');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
+                popup_5d6707c8ec144f44c63f5547f5cf3ba3.setContent(html_285515075afd19c06f04d64fd6f40be6);
             
         
 
-        marker_856a3f54e868fc6ad253d485bb6aacb2.bindPopup(popup_eb9533bf7cc6847d746440e289bafd50)
+        marker_da5c1190bd7201b7bd1c135742118fe9.bindPopup(popup_5d6707c8ec144f44c63f5547f5cf3ba3)
         ;
 
         
     
     
-                marker_856a3f54e868fc6ad253d485bb6aacb2.setIcon(icon_b152188128922ecf2cb8f437edd71428);
+                marker_da5c1190bd7201b7bd1c135742118fe9.setIcon(icon_76f78716a88c6a3233e389cc4e649e46);
             
     
-            var marker_348e68927584e73e1953be8e90588bcc = L.marker(
+            var marker_6367b515c44a41c487913aa2adc06a10 = L.marker(
                 [-34.619383, -58.393276],
                 {
 }
-            ).addTo(marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2);
+            ).addTo(marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7);
         
     
-            var icon_738b0908d550a3969f880f4f31038d8d = L.AwesomeMarkers.icon(
+            var icon_af704ffd33f299fc0ddbe05bb202d72c = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -1675,34 +1675,34 @@
             );
         
     
-        var popup_9c30f887cfe6a5f8f4709b0926124f03 = L.popup({
+        var popup_a74413b630b062960d8a6f8481eff641 = L.popup({
   "maxWidth": 200,
 });
 
         
             
-                var html_92c22867a7354901024886ebd265b7fc = $(`<div id="html_92c22867a7354901024886ebd265b7fc" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="2245" data-comuna="1">             <b>Dirección:</b> COMBATE DE LOS POZOS 895<br>             <b>Comuna:</b> 1<br>             <b>OT:</b> 790818847<br>             <b>Observaciones:</b><br>Falta desmonte<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 2245<br>             <br><b><a href="#" onclick="mostrarFotos('2245'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.619383,-58.393276" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('2245');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
-                popup_9c30f887cfe6a5f8f4709b0926124f03.setContent(html_92c22867a7354901024886ebd265b7fc);
+                var html_2294b85acfbb6519fbf04c12465c5acd = $(`<div id="html_2294b85acfbb6519fbf04c12465c5acd" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="2245" data-comuna="1">             <b>Dirección:</b> COMBATE DE LOS POZOS 895<br>             <b>Comuna:</b> 1<br>             <b>OT:</b> 790818847<br>             <b>Observaciones:</b><br>Falta desmonte<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 2245<br>             <br><b><a href="#" onclick="mostrarFotos('2245'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.619383,-58.393276" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('2245');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
+                popup_a74413b630b062960d8a6f8481eff641.setContent(html_2294b85acfbb6519fbf04c12465c5acd);
             
         
 
-        marker_348e68927584e73e1953be8e90588bcc.bindPopup(popup_9c30f887cfe6a5f8f4709b0926124f03)
+        marker_6367b515c44a41c487913aa2adc06a10.bindPopup(popup_a74413b630b062960d8a6f8481eff641)
         ;
 
         
     
     
-                marker_348e68927584e73e1953be8e90588bcc.setIcon(icon_738b0908d550a3969f880f4f31038d8d);
+                marker_6367b515c44a41c487913aa2adc06a10.setIcon(icon_af704ffd33f299fc0ddbe05bb202d72c);
             
     
-            var marker_c979974ccf80476e24b81ed17d050955 = L.marker(
+            var marker_57df01ada572bdface6593b047237a7d = L.marker(
                 [-34.592027, -58.404865],
                 {
 }
-            ).addTo(marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2);
+            ).addTo(marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7);
         
     
-            var icon_84f0a3bc7d301031b291464880542829 = L.AwesomeMarkers.icon(
+            var icon_5aa3c5cf1f4142bdbf6bddd68abf319c = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -1713,34 +1713,34 @@
             );
         
     
-        var popup_9544c94f5e929343d9da0cc260ed5be0 = L.popup({
+        var popup_95bc0bff08ce7e11584889c1aacb07b6 = L.popup({
   "maxWidth": 200,
 });
 
         
             
-                var html_1128d7a0509cba90f8d0b80bf0f3d5da = $(`<div id="html_1128d7a0509cba90f8d0b80bf0f3d5da" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="2296" data-comuna="2">             <b>Dirección:</b> Arenales 2776<br>             <b>Comuna:</b> 2<br>             <b>OT:</b> 790836584<br>             <b>Observaciones:</b><br>Equipo de TLC ya traspasad solo Retirar Columna<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Fuente TLC<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 2296<br>             <br><b><a href="#" onclick="mostrarFotos('2296'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.592027,-58.404865" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('2296');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
-                popup_9544c94f5e929343d9da0cc260ed5be0.setContent(html_1128d7a0509cba90f8d0b80bf0f3d5da);
+                var html_765ea994c0ab40936782faa65688fc98 = $(`<div id="html_765ea994c0ab40936782faa65688fc98" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="2296" data-comuna="2">             <b>Dirección:</b> Arenales 2776<br>             <b>Comuna:</b> 2<br>             <b>OT:</b> 790836584<br>             <b>Observaciones:</b><br>Equipo de TLC ya traspasad solo Retirar Columna<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Fuente TLC<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 2296<br>             <br><b><a href="#" onclick="mostrarFotos('2296'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.592027,-58.404865" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('2296');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
+                popup_95bc0bff08ce7e11584889c1aacb07b6.setContent(html_765ea994c0ab40936782faa65688fc98);
             
         
 
-        marker_c979974ccf80476e24b81ed17d050955.bindPopup(popup_9544c94f5e929343d9da0cc260ed5be0)
+        marker_57df01ada572bdface6593b047237a7d.bindPopup(popup_95bc0bff08ce7e11584889c1aacb07b6)
         ;
 
         
     
     
-                marker_c979974ccf80476e24b81ed17d050955.setIcon(icon_84f0a3bc7d301031b291464880542829);
+                marker_57df01ada572bdface6593b047237a7d.setIcon(icon_5aa3c5cf1f4142bdbf6bddd68abf319c);
             
     
-            var marker_f346506df75865846975e0f1ac989dfa = L.marker(
+            var marker_3aa6f2257832265820005a5e1c5fe8bf = L.marker(
                 [-34.584156, -58.40589],
                 {
 }
-            ).addTo(marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2);
+            ).addTo(marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7);
         
     
-            var icon_96fdebba0569849839a5e77a3deeecba = L.AwesomeMarkers.icon(
+            var icon_e42733a0536ad97d30fdaac094ca79c9 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -1751,34 +1751,34 @@
             );
         
     
-        var popup_f5f3d0e4f695effd468811b1a2547009 = L.popup({
+        var popup_83f8f9819d76e63c529fe64db07bbef1 = L.popup({
   "maxWidth": 264,
 });
 
         
             
-                var html_835b1b4b83fe3dcf3c971d64a1e9f77a = $(`<div id="html_835b1b4b83fe3dcf3c971d64a1e9f77a" style="width: 100.0%; height: 100.0%;">         <div style='width: 264px; font: 12px Arial;' data-caso="2463" data-comuna="2">             <b>Dirección:</b> PACHECO DE MELO, JOSE ANDRES 3066<br>             <b>Comuna:</b> 2<br>             <b>OT:</b> 795698153<br>             <b>Observaciones:</b><br>Equipo de TLC ya traspasado solo Retirar Columna<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Nodo TLC<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 2463<br>             <br><b><a href="#" onclick="mostrarFotos('2463'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.584156,-58.40589" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('2463');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
-                popup_f5f3d0e4f695effd468811b1a2547009.setContent(html_835b1b4b83fe3dcf3c971d64a1e9f77a);
+                var html_53f6c58d55384a80da9438ead7dac4f1 = $(`<div id="html_53f6c58d55384a80da9438ead7dac4f1" style="width: 100.0%; height: 100.0%;">         <div style='width: 264px; font: 12px Arial;' data-caso="2463" data-comuna="2">             <b>Dirección:</b> PACHECO DE MELO, JOSE ANDRES 3066<br>             <b>Comuna:</b> 2<br>             <b>OT:</b> 795698153<br>             <b>Observaciones:</b><br>Equipo de TLC ya traspasado solo Retirar Columna<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Nodo TLC<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 2463<br>             <br><b><a href="#" onclick="mostrarFotos('2463'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.584156,-58.40589" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('2463');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
+                popup_83f8f9819d76e63c529fe64db07bbef1.setContent(html_53f6c58d55384a80da9438ead7dac4f1);
             
         
 
-        marker_f346506df75865846975e0f1ac989dfa.bindPopup(popup_f5f3d0e4f695effd468811b1a2547009)
+        marker_3aa6f2257832265820005a5e1c5fe8bf.bindPopup(popup_83f8f9819d76e63c529fe64db07bbef1)
         ;
 
         
     
     
-                marker_f346506df75865846975e0f1ac989dfa.setIcon(icon_96fdebba0569849839a5e77a3deeecba);
+                marker_3aa6f2257832265820005a5e1c5fe8bf.setIcon(icon_e42733a0536ad97d30fdaac094ca79c9);
             
     
-            var marker_fe35efbac698fc9b6c2a59b8f0ca206a = L.marker(
+            var marker_1ee8a59f1c54a5f79c01ae557c3c1cbb = L.marker(
                 [-34.576359, -58.437276],
                 {
 }
-            ).addTo(marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2);
+            ).addTo(marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7);
         
     
-            var icon_8a9732b81372e9ac97c8acaff69f7f97 = L.AwesomeMarkers.icon(
+            var icon_35962cf587fc2037d63bc5e32fd7672b = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -1789,34 +1789,34 @@
             );
         
     
-        var popup_9140cf2aedced9fe6efe312cf1aa69ec = L.popup({
+        var popup_84a3a05d2178ccb7f5312b153d4bfac5 = L.popup({
   "maxWidth": 200,
 });
 
         
             
-                var html_6edd14dd4891bb1736a15293aadb1c27 = $(`<div id="html_6edd14dd4891bb1736a15293aadb1c27" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="2620" data-comuna="13">             <b>Dirección:</b> DORREGO 2398<br>             <b>Comuna:</b> 13<br>             <b>OT:</b> 791764848<br>             <b>Observaciones:</b><br>Ver fotos para ubicar la columna<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Aplomo<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Terminal<br>             <b>Caso:</b> 2620<br>             <br><b><a href="#" onclick="mostrarFotos('2620'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.576359,-58.437276" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('2620');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
-                popup_9140cf2aedced9fe6efe312cf1aa69ec.setContent(html_6edd14dd4891bb1736a15293aadb1c27);
+                var html_795fa597813d46186202c2fb4829f85f = $(`<div id="html_795fa597813d46186202c2fb4829f85f" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="2620" data-comuna="13">             <b>Dirección:</b> DORREGO 2398<br>             <b>Comuna:</b> 13<br>             <b>OT:</b> 791764848<br>             <b>Observaciones:</b><br>Ver fotos para ubicar la columna<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Aplomo<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Terminal<br>             <b>Caso:</b> 2620<br>             <br><b><a href="#" onclick="mostrarFotos('2620'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.576359,-58.437276" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('2620');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
+                popup_84a3a05d2178ccb7f5312b153d4bfac5.setContent(html_795fa597813d46186202c2fb4829f85f);
             
         
 
-        marker_fe35efbac698fc9b6c2a59b8f0ca206a.bindPopup(popup_9140cf2aedced9fe6efe312cf1aa69ec)
+        marker_1ee8a59f1c54a5f79c01ae557c3c1cbb.bindPopup(popup_84a3a05d2178ccb7f5312b153d4bfac5)
         ;
 
         
     
     
-                marker_fe35efbac698fc9b6c2a59b8f0ca206a.setIcon(icon_8a9732b81372e9ac97c8acaff69f7f97);
+                marker_1ee8a59f1c54a5f79c01ae557c3c1cbb.setIcon(icon_35962cf587fc2037d63bc5e32fd7672b);
             
     
-            var marker_9fb5f0d2bc64283d7b6107ed53a0bca5 = L.marker(
+            var marker_214d5ac39adc95b778a3b9d895d16ddb = L.marker(
                 [-34.590308, -58.413803],
                 {
 }
-            ).addTo(marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2);
+            ).addTo(marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7);
         
     
-            var icon_1751270c405002419e7b6073549d87c7 = L.AwesomeMarkers.icon(
+            var icon_f5e3ea1064d8d97f4f52ceddfb2c30d8 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -1827,34 +1827,34 @@
             );
         
     
-        var popup_1b0120e57394e08919e7c753f1531115 = L.popup({
+        var popup_30c6c9c9fd726ebf099ee533ec520190 = L.popup({
   "maxWidth": 200,
 });
 
         
             
-                var html_905731b6a73a4110737beb8c04d90846 = $(`<div id="html_905731b6a73a4110737beb8c04d90846" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="1871" data-comuna="14">             <b>Dirección:</b> Bulnes 1810<br>             <b>Comuna:</b> 14<br>             <b>OT:</b> 796016024<br>             <b>Observaciones:</b><br>Equipo de TLC ya traspasado, solo Retirar Columna<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Nodo TLC<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 1871<br>             <br><b><a href="#" onclick="mostrarFotos('1871'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.590308,-58.413803" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('1871');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
-                popup_1b0120e57394e08919e7c753f1531115.setContent(html_905731b6a73a4110737beb8c04d90846);
+                var html_730b30905c7d3244bf860965ea4d3617 = $(`<div id="html_730b30905c7d3244bf860965ea4d3617" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="1871" data-comuna="14">             <b>Dirección:</b> Bulnes 1810<br>             <b>Comuna:</b> 14<br>             <b>OT:</b> 796016024<br>             <b>Observaciones:</b><br>Equipo de TLC ya traspasado, solo Retirar Columna<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Nodo TLC<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 1871<br>             <br><b><a href="#" onclick="mostrarFotos('1871'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.590308,-58.413803" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('1871');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
+                popup_30c6c9c9fd726ebf099ee533ec520190.setContent(html_730b30905c7d3244bf860965ea4d3617);
             
         
 
-        marker_9fb5f0d2bc64283d7b6107ed53a0bca5.bindPopup(popup_1b0120e57394e08919e7c753f1531115)
+        marker_214d5ac39adc95b778a3b9d895d16ddb.bindPopup(popup_30c6c9c9fd726ebf099ee533ec520190)
         ;
 
         
     
     
-                marker_9fb5f0d2bc64283d7b6107ed53a0bca5.setIcon(icon_1751270c405002419e7b6073549d87c7);
+                marker_214d5ac39adc95b778a3b9d895d16ddb.setIcon(icon_f5e3ea1064d8d97f4f52ceddfb2c30d8);
             
     
-            var marker_00e9916bb42b894f02c676d4edd6d75a = L.marker(
+            var marker_1aaf7f5728ebfdb97bb75e31f47bfcf9 = L.marker(
                 [-34.594382, -58.406235],
                 {
 }
-            ).addTo(marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2);
+            ).addTo(marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7);
         
     
-            var icon_bf7cad131eaea85092a99af0272c8245 = L.AwesomeMarkers.icon(
+            var icon_f5878ac54c5ffd05e8d300e8bdae7166 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -1865,34 +1865,34 @@
             );
         
     
-        var popup_b28b8e535a592c1c3b1a08546d7335af = L.popup({
+        var popup_6a856fcd7b2d97f69823cd984618a652 = L.popup({
   "maxWidth": 216,
 });
 
         
             
-                var html_6df643144313a12c7d228da99847943a = $(`<div id="html_6df643144313a12c7d228da99847943a" style="width: 100.0%; height: 100.0%;">         <div style='width: 216px; font: 12px Arial;' data-caso="2800" data-comuna="2">             <b>Dirección:</b> Anchorena Tomás Manuel 1288<br>             <b>Comuna:</b> 2<br>             <b>OT:</b> 796212149<br>             <b>Observaciones:</b><br>Faltan traspasar redes y desmontar<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Terminal<br>             <b>Caso:</b> 2800<br>             <br><b><a href="#" onclick="mostrarFotos('2800'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.594382,-58.406235" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('2800');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
-                popup_b28b8e535a592c1c3b1a08546d7335af.setContent(html_6df643144313a12c7d228da99847943a);
+                var html_5164a243f3dc265f3caec7fce122d99d = $(`<div id="html_5164a243f3dc265f3caec7fce122d99d" style="width: 100.0%; height: 100.0%;">         <div style='width: 216px; font: 12px Arial;' data-caso="2800" data-comuna="2">             <b>Dirección:</b> Anchorena Tomás Manuel 1288<br>             <b>Comuna:</b> 2<br>             <b>OT:</b> 796212149<br>             <b>Observaciones:</b><br>Faltan traspasar redes y desmontar<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Terminal<br>             <b>Caso:</b> 2800<br>             <br><b><a href="#" onclick="mostrarFotos('2800'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.594382,-58.406235" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('2800');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
+                popup_6a856fcd7b2d97f69823cd984618a652.setContent(html_5164a243f3dc265f3caec7fce122d99d);
             
         
 
-        marker_00e9916bb42b894f02c676d4edd6d75a.bindPopup(popup_b28b8e535a592c1c3b1a08546d7335af)
+        marker_1aaf7f5728ebfdb97bb75e31f47bfcf9.bindPopup(popup_6a856fcd7b2d97f69823cd984618a652)
         ;
 
         
     
     
-                marker_00e9916bb42b894f02c676d4edd6d75a.setIcon(icon_bf7cad131eaea85092a99af0272c8245);
+                marker_1aaf7f5728ebfdb97bb75e31f47bfcf9.setIcon(icon_f5878ac54c5ffd05e8d300e8bdae7166);
             
     
-            var marker_7c8612c5ed13fc770a3b27737fef25c1 = L.marker(
+            var marker_8af75a7ca8119f5ee40e8709889f444f = L.marker(
                 [-34.594038, -58.405961],
                 {
 }
-            ).addTo(marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2);
+            ).addTo(marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7);
         
     
-            var icon_985f18b1d91bf4818618ed51ce21f03a = L.AwesomeMarkers.icon(
+            var icon_fc77284ab63ef5a2b879c12a7eb82ed5 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -1903,34 +1903,34 @@
             );
         
     
-        var popup_64abfb63582d8b48fc59e5588f7351a0 = L.popup({
+        var popup_3678a72bdc21c4c23edc1e17a1e7cc82 = L.popup({
   "maxWidth": 240,
 });
 
         
             
-                var html_75e770e5504faf6b8772d82d05725765 = $(`<div id="html_75e770e5504faf6b8772d82d05725765" style="width: 100.0%; height: 100.0%;">         <div style='width: 240px; font: 12px Arial;' data-caso="1545" data-comuna="2">             <b>Dirección:</b> Anchorena Tomas Manuel de 1324<br>             <b>Comuna:</b> 2<br>             <b>OT:</b> 797379000<br>             <b>Observaciones:</b><br>Pendiente de retiro la vieja<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Terminal<br>             <b>Caso:</b> 1545<br>             <br><b><a href="#" onclick="mostrarFotos('1545'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.594038,-58.405961" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('1545');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
-                popup_64abfb63582d8b48fc59e5588f7351a0.setContent(html_75e770e5504faf6b8772d82d05725765);
+                var html_32601833d8b7f436d167f03f61c58cab = $(`<div id="html_32601833d8b7f436d167f03f61c58cab" style="width: 100.0%; height: 100.0%;">         <div style='width: 240px; font: 12px Arial;' data-caso="1545" data-comuna="2">             <b>Dirección:</b> Anchorena Tomas Manuel de 1324<br>             <b>Comuna:</b> 2<br>             <b>OT:</b> 797379000<br>             <b>Observaciones:</b><br>Pendiente de retiro la vieja<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Terminal<br>             <b>Caso:</b> 1545<br>             <br><b><a href="#" onclick="mostrarFotos('1545'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.594038,-58.405961" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('1545');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
+                popup_3678a72bdc21c4c23edc1e17a1e7cc82.setContent(html_32601833d8b7f436d167f03f61c58cab);
             
         
 
-        marker_7c8612c5ed13fc770a3b27737fef25c1.bindPopup(popup_64abfb63582d8b48fc59e5588f7351a0)
+        marker_8af75a7ca8119f5ee40e8709889f444f.bindPopup(popup_3678a72bdc21c4c23edc1e17a1e7cc82)
         ;
 
         
     
     
-                marker_7c8612c5ed13fc770a3b27737fef25c1.setIcon(icon_985f18b1d91bf4818618ed51ce21f03a);
+                marker_8af75a7ca8119f5ee40e8709889f444f.setIcon(icon_fc77284ab63ef5a2b879c12a7eb82ed5);
             
     
-            var marker_ea7e99499416e30f43d318f973e5c06a = L.marker(
+            var marker_fde07ef130fbf0e135fba46f6b1e8afb = L.marker(
                 [-34.587957, -58.388894],
                 {
 }
-            ).addTo(marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2);
+            ).addTo(marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7);
         
     
-            var icon_91dfdf899d3d2d7c50c01d9768decf62 = L.AwesomeMarkers.icon(
+            var icon_3ad5d325f4515354fc2fa27fac26e1e6 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -1941,34 +1941,34 @@
             );
         
     
-        var popup_e18ed1f402a54f1971258943a772af52 = L.popup({
+        var popup_a7405c16fd7a1768e4336a352cd9eb90 = L.popup({
   "maxWidth": 200,
 });
 
         
             
-                var html_c4aeb0b5dee7828118d192d15a7aef2c = $(`<div id="html_c4aeb0b5dee7828118d192d15a7aef2c" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="3722" data-comuna="2">             <b>Dirección:</b> ALVEAR AV. 1866<br>             <b>Comuna:</b> 2<br>             <b>OT:</b> 797507868<br>             <b>Observaciones:</b><br>Entre Av Callao y Ayacucho - Columna inclinada de 168<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Aplomo<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> nan<br>             <b>Caso:</b> 3722<br>             <br><b><a href="#" onclick="mostrarFotos('3722'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.587957,-58.388894" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('3722');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
-                popup_e18ed1f402a54f1971258943a772af52.setContent(html_c4aeb0b5dee7828118d192d15a7aef2c);
+                var html_bf74b006486746b6ded3fab8139b10ca = $(`<div id="html_bf74b006486746b6ded3fab8139b10ca" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="3722" data-comuna="2">             <b>Dirección:</b> ALVEAR AV. 1866<br>             <b>Comuna:</b> 2<br>             <b>OT:</b> 797507868<br>             <b>Observaciones:</b><br>Entre Av Callao y Ayacucho - Columna inclinada de 168<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Aplomo<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> nan<br>             <b>Caso:</b> 3722<br>             <br><b><a href="#" onclick="mostrarFotos('3722'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.587957,-58.388894" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('3722');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
+                popup_a7405c16fd7a1768e4336a352cd9eb90.setContent(html_bf74b006486746b6ded3fab8139b10ca);
             
         
 
-        marker_ea7e99499416e30f43d318f973e5c06a.bindPopup(popup_e18ed1f402a54f1971258943a772af52)
+        marker_fde07ef130fbf0e135fba46f6b1e8afb.bindPopup(popup_a7405c16fd7a1768e4336a352cd9eb90)
         ;
 
         
     
     
-                marker_ea7e99499416e30f43d318f973e5c06a.setIcon(icon_91dfdf899d3d2d7c50c01d9768decf62);
+                marker_fde07ef130fbf0e135fba46f6b1e8afb.setIcon(icon_3ad5d325f4515354fc2fa27fac26e1e6);
             
     
-            var marker_86d7c1e41945dfe19895f680f3eedfd2 = L.marker(
+            var marker_a3357b307248f153d7e28a105f882521 = L.marker(
                 [-34.588656, -58.391696],
                 {
 }
-            ).addTo(marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2);
+            ).addTo(marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7);
         
     
-            var icon_a65ab8549bb2e8bdcbbcccd8b900efd1 = L.AwesomeMarkers.icon(
+            var icon_0fb2bd0ebdff2f4beeb63e773885e37d = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -1979,34 +1979,34 @@
             );
         
     
-        var popup_20186d42ff79b8d834da51db1908e7db = L.popup({
+        var popup_2fbcb9d403c987405396a54fb3013d17 = L.popup({
   "maxWidth": 200,
 });
 
         
             
-                var html_cc9fa1765eab60ef7560969976dc4c05 = $(`<div id="html_cc9fa1765eab60ef7560969976dc4c05" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="4715" data-comuna="2">             <b>Dirección:</b> GUIDO 1980<br>             <b>Comuna:</b> 2<br>             <b>OT:</b> 804568874<br>             <b>Observaciones:</b><br><br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> nan<br>             <b>Caso:</b> 4715<br>             <br><b><a href="#" onclick="mostrarFotos('4715'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.588656,-58.391696" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('4715');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
-                popup_20186d42ff79b8d834da51db1908e7db.setContent(html_cc9fa1765eab60ef7560969976dc4c05);
+                var html_13d42224768f2e0d2e918c08a0f1ae50 = $(`<div id="html_13d42224768f2e0d2e918c08a0f1ae50" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="4715" data-comuna="2">             <b>Dirección:</b> GUIDO 1980<br>             <b>Comuna:</b> 2<br>             <b>OT:</b> 804568874<br>             <b>Observaciones:</b><br><br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> nan<br>             <b>Caso:</b> 4715<br>             <br><b><a href="#" onclick="mostrarFotos('4715'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.588656,-58.391696" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('4715');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
+                popup_2fbcb9d403c987405396a54fb3013d17.setContent(html_13d42224768f2e0d2e918c08a0f1ae50);
             
         
 
-        marker_86d7c1e41945dfe19895f680f3eedfd2.bindPopup(popup_20186d42ff79b8d834da51db1908e7db)
+        marker_a3357b307248f153d7e28a105f882521.bindPopup(popup_2fbcb9d403c987405396a54fb3013d17)
         ;
 
         
     
     
-                marker_86d7c1e41945dfe19895f680f3eedfd2.setIcon(icon_a65ab8549bb2e8bdcbbcccd8b900efd1);
+                marker_a3357b307248f153d7e28a105f882521.setIcon(icon_0fb2bd0ebdff2f4beeb63e773885e37d);
             
     
-            var marker_a61576ec50bfa4e6f1d44af4d781f2eb = L.marker(
+            var marker_a5382ad47aada87b004d2496d25b950a = L.marker(
                 [-34.579697, -58.426169],
                 {
 }
-            ).addTo(marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2);
+            ).addTo(marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7);
         
     
-            var icon_6d753df0673e76c106d4c4065cf0a543 = L.AwesomeMarkers.icon(
+            var icon_373aeba87ea2e80446dd4a8aab65e921 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -2017,34 +2017,34 @@
             );
         
     
-        var popup_9c5ba645f1d483e3abb53cb097659928 = L.popup({
+        var popup_452bd5453ca8c1de40125e6e5dd397ce = L.popup({
   "maxWidth": 200,
 });
 
         
             
-                var html_f326cdd847286caa351bf261550b5ca3 = $(`<div id="html_f326cdd847286caa351bf261550b5ca3" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="3938" data-comuna="14">             <b>Dirección:</b> GODOY CRUZ 2604<br>             <b>Comuna:</b> 14<br>             <b>OT:</b> 799246642<br>             <b>Observaciones:</b><br>*Realizar traspasos y retiro de columna vieja*<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Aplomo<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Terminal<br>             <b>Caso:</b> 3938<br>             <br><b><a href="#" onclick="mostrarFotos('3938'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.579697,-58.426169" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('3938');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
-                popup_9c5ba645f1d483e3abb53cb097659928.setContent(html_f326cdd847286caa351bf261550b5ca3);
+                var html_56396214033e2b2c2677cd8a4805f544 = $(`<div id="html_56396214033e2b2c2677cd8a4805f544" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="3938" data-comuna="14">             <b>Dirección:</b> GODOY CRUZ 2604<br>             <b>Comuna:</b> 14<br>             <b>OT:</b> 799246642<br>             <b>Observaciones:</b><br>*Realizar traspasos y retiro de columna vieja*<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Aplomo<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Terminal<br>             <b>Caso:</b> 3938<br>             <br><b><a href="#" onclick="mostrarFotos('3938'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.579697,-58.426169" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('3938');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
+                popup_452bd5453ca8c1de40125e6e5dd397ce.setContent(html_56396214033e2b2c2677cd8a4805f544);
             
         
 
-        marker_a61576ec50bfa4e6f1d44af4d781f2eb.bindPopup(popup_9c5ba645f1d483e3abb53cb097659928)
+        marker_a5382ad47aada87b004d2496d25b950a.bindPopup(popup_452bd5453ca8c1de40125e6e5dd397ce)
         ;
 
         
     
     
-                marker_a61576ec50bfa4e6f1d44af4d781f2eb.setIcon(icon_6d753df0673e76c106d4c4065cf0a543);
+                marker_a5382ad47aada87b004d2496d25b950a.setIcon(icon_373aeba87ea2e80446dd4a8aab65e921);
             
     
-            var marker_29052d408512d3f1c6a5bcb691ec4cbe = L.marker(
+            var marker_3fc643a8e91abd85b992877434d07907 = L.marker(
                 [-34.575873, -58.447022],
                 {
 }
-            ).addTo(marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2);
+            ).addTo(marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7);
         
     
-            var icon_939518dfe4b5763716860838c21027a9 = L.AwesomeMarkers.icon(
+            var icon_07f51cdca1af267dfe9316c4e5f44cd7 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -2055,34 +2055,34 @@
             );
         
     
-        var popup_1fff46f6dcd9d35014348e5b886ab28c = L.popup({
+        var popup_3d491abb9045c6025e2a6d23e23b7ea3 = L.popup({
   "maxWidth": 200,
 });
 
         
             
-                var html_98b76c3c098c5816bb28c70d5e0a6d48 = $(`<div id="html_98b76c3c098c5816bb28c70d5e0a6d48" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="5884" data-comuna="13">             <b>Dirección:</b> OLLEROS 2952<br>             <b>Comuna:</b> 13<br>             <b>OT:</b> 799450967<br>             <b>Observaciones:</b><br><br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> nan<br>             <b>Equipo:</b> nan<br>             <b>Tipo de Elemento:</b> nan<br>             <b>Caso:</b> 5884<br>             <br><b><a href="#" onclick="mostrarFotos('5884'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.575873,-58.447022" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('5884');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
-                popup_1fff46f6dcd9d35014348e5b886ab28c.setContent(html_98b76c3c098c5816bb28c70d5e0a6d48);
+                var html_b2459e0d16a2832f210712da7989aca9 = $(`<div id="html_b2459e0d16a2832f210712da7989aca9" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="5884" data-comuna="13">             <b>Dirección:</b> OLLEROS 2952<br>             <b>Comuna:</b> 13<br>             <b>OT:</b> 799450967<br>             <b>Observaciones:</b><br><br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> nan<br>             <b>Equipo:</b> nan<br>             <b>Tipo de Elemento:</b> nan<br>             <b>Caso:</b> 5884<br>             <br><b><a href="#" onclick="mostrarFotos('5884'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.575873,-58.447022" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('5884');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
+                popup_3d491abb9045c6025e2a6d23e23b7ea3.setContent(html_b2459e0d16a2832f210712da7989aca9);
             
         
 
-        marker_29052d408512d3f1c6a5bcb691ec4cbe.bindPopup(popup_1fff46f6dcd9d35014348e5b886ab28c)
+        marker_3fc643a8e91abd85b992877434d07907.bindPopup(popup_3d491abb9045c6025e2a6d23e23b7ea3)
         ;
 
         
     
     
-                marker_29052d408512d3f1c6a5bcb691ec4cbe.setIcon(icon_939518dfe4b5763716860838c21027a9);
+                marker_3fc643a8e91abd85b992877434d07907.setIcon(icon_07f51cdca1af267dfe9316c4e5f44cd7);
             
     
-            var marker_c753cfcef0780aaaa57cc7d9260f05b7 = L.marker(
+            var marker_380e16c971b3f1c994c7918e035746d4 = L.marker(
                 [-34.609923, -58.397512],
                 {
 }
-            ).addTo(marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2);
+            ).addTo(marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7);
         
     
-            var icon_543b93987287ed2034126acd3434dc63 = L.AwesomeMarkers.icon(
+            var icon_d2b7b383aefe7d6f2a1300a5e738ca7e = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -2093,34 +2093,34 @@
             );
         
     
-        var popup_89719bd45998e31a48fb6508b6e1d751 = L.popup({
+        var popup_46743719dd5d7b4e0327e09d4d89ca7e = L.popup({
   "maxWidth": 200,
 });
 
         
             
-                var html_4682b6142424c629623b3ac932ef5a43 = $(`<div id="html_4682b6142424c629623b3ac932ef5a43" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="4579" data-comuna="3">             <b>Dirección:</b> PASCO 10<br>             <b>Comuna:</b> 3<br>             <b>OT:</b> 802438793<br>             <b>Observaciones:</b><br>PIcada<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Nodo TLC<br>             <b>Tipo de Elemento:</b> Terminal<br>             <b>Caso:</b> 4579<br>             <br><b><a href="#" onclick="mostrarFotos('4579'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.609923,-58.397512" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('4579');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
-                popup_89719bd45998e31a48fb6508b6e1d751.setContent(html_4682b6142424c629623b3ac932ef5a43);
+                var html_d1f5ba48ede96f7c4d6862f60f2b4e88 = $(`<div id="html_d1f5ba48ede96f7c4d6862f60f2b4e88" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="4579" data-comuna="3">             <b>Dirección:</b> PASCO 10<br>             <b>Comuna:</b> 3<br>             <b>OT:</b> 802438793<br>             <b>Observaciones:</b><br>PIcada<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Nodo TLC<br>             <b>Tipo de Elemento:</b> Terminal<br>             <b>Caso:</b> 4579<br>             <br><b><a href="#" onclick="mostrarFotos('4579'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.609923,-58.397512" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('4579');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
+                popup_46743719dd5d7b4e0327e09d4d89ca7e.setContent(html_d1f5ba48ede96f7c4d6862f60f2b4e88);
             
         
 
-        marker_c753cfcef0780aaaa57cc7d9260f05b7.bindPopup(popup_89719bd45998e31a48fb6508b6e1d751)
+        marker_380e16c971b3f1c994c7918e035746d4.bindPopup(popup_46743719dd5d7b4e0327e09d4d89ca7e)
         ;
 
         
     
     
-                marker_c753cfcef0780aaaa57cc7d9260f05b7.setIcon(icon_543b93987287ed2034126acd3434dc63);
+                marker_380e16c971b3f1c994c7918e035746d4.setIcon(icon_d2b7b383aefe7d6f2a1300a5e738ca7e);
             
     
-            var marker_a0635f289ac9eab990b4b2d8ed84f67d = L.marker(
+            var marker_2f22c836a80f2c8d32b6a59da6094bd6 = L.marker(
                 [-34.579977, -58.436969],
                 {
 }
-            ).addTo(marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2);
+            ).addTo(marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7);
         
     
-            var icon_49a82c0e7c1ab8dc4ded222442665806 = L.AwesomeMarkers.icon(
+            var icon_37e8bc555ab3d3fd011014385869d9ec = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -2131,34 +2131,34 @@
             );
         
     
-        var popup_2db09fd5f51ab3361f6b59efaa58897a = L.popup({
+        var popup_943d6fcf5aa45d56b99b44d555d05557 = L.popup({
   "maxWidth": 200,
 });
 
         
             
-                var html_9560f3faf12d73e255bf701e1c74fa0a = $(`<div id="html_9560f3faf12d73e255bf701e1c74fa0a" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="4643" data-comuna="14">             <b>Dirección:</b> VOLTAIRE 5867<br>             <b>Comuna:</b> 14<br>             <b>OT:</b> 802774538<br>             <b>Observaciones:</b><br>Picada<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 4643<br>             <br><b><a href="#" onclick="mostrarFotos('4643'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.579977,-58.436969" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('4643');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
-                popup_2db09fd5f51ab3361f6b59efaa58897a.setContent(html_9560f3faf12d73e255bf701e1c74fa0a);
+                var html_d25f7988bfb09cb17ef4e39a04bd85f2 = $(`<div id="html_d25f7988bfb09cb17ef4e39a04bd85f2" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="4643" data-comuna="14">             <b>Dirección:</b> VOLTAIRE 5867<br>             <b>Comuna:</b> 14<br>             <b>OT:</b> 802774538<br>             <b>Observaciones:</b><br>Picada<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 4643<br>             <br><b><a href="#" onclick="mostrarFotos('4643'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.579977,-58.436969" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('4643');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
+                popup_943d6fcf5aa45d56b99b44d555d05557.setContent(html_d25f7988bfb09cb17ef4e39a04bd85f2);
             
         
 
-        marker_a0635f289ac9eab990b4b2d8ed84f67d.bindPopup(popup_2db09fd5f51ab3361f6b59efaa58897a)
+        marker_2f22c836a80f2c8d32b6a59da6094bd6.bindPopup(popup_943d6fcf5aa45d56b99b44d555d05557)
         ;
 
         
     
     
-                marker_a0635f289ac9eab990b4b2d8ed84f67d.setIcon(icon_49a82c0e7c1ab8dc4ded222442665806);
+                marker_2f22c836a80f2c8d32b6a59da6094bd6.setIcon(icon_37e8bc555ab3d3fd011014385869d9ec);
             
     
-            var marker_af61ccda3296c08b796a3e1ecc460388 = L.marker(
+            var marker_34481dab84d6fe10cd0515bb0dd80207 = L.marker(
                 [-34.620237, -58.391218],
                 {
 }
-            ).addTo(marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2);
+            ).addTo(marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7);
         
     
-            var icon_c26e8b06b77a52ec97f1924c9099afeb = L.AwesomeMarkers.icon(
+            var icon_787c150e929b9b953783cc457a49f0b1 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -2169,34 +2169,34 @@
             );
         
     
-        var popup_9118475d9c0d35e4f9fcdc2f9ecca09e = L.popup({
+        var popup_99c6de52c26306ca91b36ff906525b7b = L.popup({
   "maxWidth": 200,
 });
 
         
             
-                var html_6b373bd4a4ecf4abe0460610a5c14e16 = $(`<div id="html_6b373bd4a4ecf4abe0460610a5c14e16" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="4688" data-comuna="1">             <b>Dirección:</b> CALVO, CARLOS 1784<br>             <b>Comuna:</b> 1<br>             <b>OT:</b> 802857158<br>             <b>Observaciones:</b><br>Inclinado<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Aplomo<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Terminal<br>             <b>Caso:</b> 4688<br>             <br><b><a href="#" onclick="mostrarFotos('4688'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.620237,-58.391218" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('4688');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
-                popup_9118475d9c0d35e4f9fcdc2f9ecca09e.setContent(html_6b373bd4a4ecf4abe0460610a5c14e16);
+                var html_2757ea7cad2b1a3b75956474378b7f7b = $(`<div id="html_2757ea7cad2b1a3b75956474378b7f7b" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="4688" data-comuna="1">             <b>Dirección:</b> CALVO, CARLOS 1784<br>             <b>Comuna:</b> 1<br>             <b>OT:</b> 802857158<br>             <b>Observaciones:</b><br>Inclinado<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Aplomo<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Terminal<br>             <b>Caso:</b> 4688<br>             <br><b><a href="#" onclick="mostrarFotos('4688'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.620237,-58.391218" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('4688');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
+                popup_99c6de52c26306ca91b36ff906525b7b.setContent(html_2757ea7cad2b1a3b75956474378b7f7b);
             
         
 
-        marker_af61ccda3296c08b796a3e1ecc460388.bindPopup(popup_9118475d9c0d35e4f9fcdc2f9ecca09e)
+        marker_34481dab84d6fe10cd0515bb0dd80207.bindPopup(popup_99c6de52c26306ca91b36ff906525b7b)
         ;
 
         
     
     
-                marker_af61ccda3296c08b796a3e1ecc460388.setIcon(icon_c26e8b06b77a52ec97f1924c9099afeb);
+                marker_34481dab84d6fe10cd0515bb0dd80207.setIcon(icon_787c150e929b9b953783cc457a49f0b1);
             
     
-            var marker_2230619a2626561f31cd6ab6cce05cd8 = L.marker(
+            var marker_d97d2f841990d6138be1f4c576e6ff94 = L.marker(
                 [-34.587493, -58.4158],
                 {
 }
-            ).addTo(marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2);
+            ).addTo(marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7);
         
     
-            var icon_90415454625c523aa9dd6fc2bf6daaa9 = L.AwesomeMarkers.icon(
+            var icon_ab49a50c23baca0ab1faf849dc263fd5 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -2207,34 +2207,34 @@
             );
         
     
-        var popup_3f11b77ccabab1583a1079f038f4148c = L.popup({
+        var popup_66ecffa3bc582f564a2f735226b66bd5 = L.popup({
   "maxWidth": 200,
 });
 
         
             
-                var html_0664476592ab2993535c2352632f53d1 = $(`<div id="html_0664476592ab2993535c2352632f53d1" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="4811" data-comuna="14">             <b>Dirección:</b> ALVAREZ, JULIAN 2395<br>             <b>Comuna:</b> 14<br>             <b>OT:</b> 803086849<br>             <b>Observaciones:</b><br>Base picada<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 4811<br>             <br><b><a href="#" onclick="mostrarFotos('4811'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.587493,-58.4158" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('4811');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
-                popup_3f11b77ccabab1583a1079f038f4148c.setContent(html_0664476592ab2993535c2352632f53d1);
+                var html_14ffbad87f136dc209721f7ada808dc2 = $(`<div id="html_14ffbad87f136dc209721f7ada808dc2" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="4811" data-comuna="14">             <b>Dirección:</b> ALVAREZ, JULIAN 2395<br>             <b>Comuna:</b> 14<br>             <b>OT:</b> 803086849<br>             <b>Observaciones:</b><br>Base picada<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 4811<br>             <br><b><a href="#" onclick="mostrarFotos('4811'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.587493,-58.4158" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('4811');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
+                popup_66ecffa3bc582f564a2f735226b66bd5.setContent(html_14ffbad87f136dc209721f7ada808dc2);
             
         
 
-        marker_2230619a2626561f31cd6ab6cce05cd8.bindPopup(popup_3f11b77ccabab1583a1079f038f4148c)
+        marker_d97d2f841990d6138be1f4c576e6ff94.bindPopup(popup_66ecffa3bc582f564a2f735226b66bd5)
         ;
 
         
     
     
-                marker_2230619a2626561f31cd6ab6cce05cd8.setIcon(icon_90415454625c523aa9dd6fc2bf6daaa9);
+                marker_d97d2f841990d6138be1f4c576e6ff94.setIcon(icon_ab49a50c23baca0ab1faf849dc263fd5);
             
     
-            var marker_7fdd754147b1f2c6763b6007fadfaf3d = L.marker(
+            var marker_e4bd7bfdaf93bc697ea89008a3139f8c = L.marker(
                 [-34.561655, -58.438342],
                 {
 }
-            ).addTo(marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2);
+            ).addTo(marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7);
         
     
-            var icon_9c2c66d958da4e44abbcd8f732577ca6 = L.AwesomeMarkers.icon(
+            var icon_93241e71371981efb14e93d7ed19dfda = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -2245,34 +2245,34 @@
             );
         
     
-        var popup_977e98415c12eefb176e45a572dd6d4d = L.popup({
+        var popup_d20a895312fc6f32afade41aa46f8df5 = L.popup({
   "maxWidth": 200,
 });
 
         
             
-                var html_25bb706c781fbb78ce9311d6aa7223b8 = $(`<div id="html_25bb706c781fbb78ce9311d6aa7223b8" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="4665" data-comuna="13">             <b>Dirección:</b> ALSINA, VALENTIN AV. 1450<br>             <b>Comuna:</b> 13<br>             <b>OT:</b> 803607792<br>             <b>Observaciones:</b><br>Poste inclinado<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Aplomo<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Poste<br>             <b>Caso:</b> 4665<br>             <br><b><a href="#" onclick="mostrarFotos('4665'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.561655,-58.438342" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('4665');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
-                popup_977e98415c12eefb176e45a572dd6d4d.setContent(html_25bb706c781fbb78ce9311d6aa7223b8);
+                var html_0260ef939a0764b841ee59190c3e10ca = $(`<div id="html_0260ef939a0764b841ee59190c3e10ca" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="4665" data-comuna="13">             <b>Dirección:</b> ALSINA, VALENTIN AV. 1450<br>             <b>Comuna:</b> 13<br>             <b>OT:</b> 803607792<br>             <b>Observaciones:</b><br>Poste inclinado<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Aplomo<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Poste<br>             <b>Caso:</b> 4665<br>             <br><b><a href="#" onclick="mostrarFotos('4665'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.561655,-58.438342" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('4665');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
+                popup_d20a895312fc6f32afade41aa46f8df5.setContent(html_0260ef939a0764b841ee59190c3e10ca);
             
         
 
-        marker_7fdd754147b1f2c6763b6007fadfaf3d.bindPopup(popup_977e98415c12eefb176e45a572dd6d4d)
+        marker_e4bd7bfdaf93bc697ea89008a3139f8c.bindPopup(popup_d20a895312fc6f32afade41aa46f8df5)
         ;
 
         
     
     
-                marker_7fdd754147b1f2c6763b6007fadfaf3d.setIcon(icon_9c2c66d958da4e44abbcd8f732577ca6);
+                marker_e4bd7bfdaf93bc697ea89008a3139f8c.setIcon(icon_93241e71371981efb14e93d7ed19dfda);
             
     
-            var marker_b540989e6cbb59621cae0398fb3e28b8 = L.marker(
+            var marker_8c70b7600fcacb0dc8e2e8ee44157647 = L.marker(
                 [-34.62359, -58.399986],
                 {
 }
-            ).addTo(marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2);
+            ).addTo(marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7);
         
     
-            var icon_4a130834d678ef383c49da4dd70e07a3 = L.AwesomeMarkers.icon(
+            var icon_1fccb0f892f927e14b21d24cc1ccba5d = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -2283,34 +2283,34 @@
             );
         
     
-        var popup_86cd005bee23749fe5cade6333e050f7 = L.popup({
+        var popup_1961357f1934c46083aae68b7a1653e8 = L.popup({
   "maxWidth": 200,
 });
 
         
             
-                var html_d62da48599cf952a31ab8e69d802a313 = $(`<div id="html_d62da48599cf952a31ab8e69d802a313" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="2184" data-comuna="3">             <b>Dirección:</b> SAN JUAN AV. 2460<br>             <b>Comuna:</b> 3<br>             <b>OT:</b> 804309662<br>             <b>Observaciones:</b><br>Picada<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 2184<br>             <br><b><a href="#" onclick="mostrarFotos('2184'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.62359,-58.399986" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('2184');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
-                popup_86cd005bee23749fe5cade6333e050f7.setContent(html_d62da48599cf952a31ab8e69d802a313);
+                var html_df3b413501200964ce3567d313ff9419 = $(`<div id="html_df3b413501200964ce3567d313ff9419" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="2184" data-comuna="3">             <b>Dirección:</b> SAN JUAN AV. 2460<br>             <b>Comuna:</b> 3<br>             <b>OT:</b> 804309662<br>             <b>Observaciones:</b><br>Picada<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 2184<br>             <br><b><a href="#" onclick="mostrarFotos('2184'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.62359,-58.399986" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('2184');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
+                popup_1961357f1934c46083aae68b7a1653e8.setContent(html_df3b413501200964ce3567d313ff9419);
             
         
 
-        marker_b540989e6cbb59621cae0398fb3e28b8.bindPopup(popup_86cd005bee23749fe5cade6333e050f7)
+        marker_8c70b7600fcacb0dc8e2e8ee44157647.bindPopup(popup_1961357f1934c46083aae68b7a1653e8)
         ;
 
         
     
     
-                marker_b540989e6cbb59621cae0398fb3e28b8.setIcon(icon_4a130834d678ef383c49da4dd70e07a3);
+                marker_8c70b7600fcacb0dc8e2e8ee44157647.setIcon(icon_1fccb0f892f927e14b21d24cc1ccba5d);
             
     
-            var marker_52420452fb71f1ab5802b9c4cb8318cd = L.marker(
+            var marker_9a00939b5c063a75bdb901dc32ba7cf7 = L.marker(
                 [-34.569495, -58.442791],
                 {
 }
-            ).addTo(marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2);
+            ).addTo(marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7);
         
     
-            var icon_40f8166509e9d6af94c7ea7c01ae026d = L.AwesomeMarkers.icon(
+            var icon_16c6d735a656610d0e0860427a769dd6 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -2321,34 +2321,34 @@
             );
         
     
-        var popup_85acb9a32297da7dcc61de8b855b5341 = L.popup({
+        var popup_a9e2eb0d2238c6a4766630c879acc588 = L.popup({
   "maxWidth": 200,
 });
 
         
             
-                var html_829082282aa2e813dd303f9d97659c22 = $(`<div id="html_829082282aa2e813dd303f9d97659c22" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="4163" data-comuna="14">             <b>Dirección:</b> 3 DE FEBRERO 990<br>             <b>Comuna:</b> 14<br>             <b>OT:</b> 804309752<br>             <b>Observaciones:</b><br>Picada<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Terminal<br>             <b>Caso:</b> 4163<br>             <br><b><a href="#" onclick="mostrarFotos('4163'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.569495,-58.442791" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('4163');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
-                popup_85acb9a32297da7dcc61de8b855b5341.setContent(html_829082282aa2e813dd303f9d97659c22);
+                var html_1ecb486011a29c9652d60cda79545e93 = $(`<div id="html_1ecb486011a29c9652d60cda79545e93" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="4163" data-comuna="14">             <b>Dirección:</b> 3 DE FEBRERO 990<br>             <b>Comuna:</b> 14<br>             <b>OT:</b> 804309752<br>             <b>Observaciones:</b><br>Picada<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Terminal<br>             <b>Caso:</b> 4163<br>             <br><b><a href="#" onclick="mostrarFotos('4163'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.569495,-58.442791" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('4163');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
+                popup_a9e2eb0d2238c6a4766630c879acc588.setContent(html_1ecb486011a29c9652d60cda79545e93);
             
         
 
-        marker_52420452fb71f1ab5802b9c4cb8318cd.bindPopup(popup_85acb9a32297da7dcc61de8b855b5341)
+        marker_9a00939b5c063a75bdb901dc32ba7cf7.bindPopup(popup_a9e2eb0d2238c6a4766630c879acc588)
         ;
 
         
     
     
-                marker_52420452fb71f1ab5802b9c4cb8318cd.setIcon(icon_40f8166509e9d6af94c7ea7c01ae026d);
+                marker_9a00939b5c063a75bdb901dc32ba7cf7.setIcon(icon_16c6d735a656610d0e0860427a769dd6);
             
     
-            var marker_d2cc325cee2a1c57ff05f291f7f0c817 = L.marker(
+            var marker_3278c2e097712765c320ec04eb7a1318 = L.marker(
                 [-34.594973, -58.423996],
                 {
 }
-            ).addTo(marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2);
+            ).addTo(marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7);
         
     
-            var icon_1322b5b3196acf1c2f089df9200d1a24 = L.AwesomeMarkers.icon(
+            var icon_2ea8144142958c7904fc3b6114c8b3b0 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -2359,34 +2359,34 @@
             );
         
     
-        var popup_c9c01c34e29a8c59fb7c4fbc0315d796 = L.popup({
+        var popup_b0948cc209d12ff19e6123903fd9ad35 = L.popup({
   "maxWidth": 200,
 });
 
         
             
-                var html_b36318f532fb5972d215456749e4d96d = $(`<div id="html_b36318f532fb5972d215456749e4d96d" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="5115" data-comuna="14">             <b>Dirección:</b> PRINGLES 1470<br>             <b>Comuna:</b> 14<br>             <b>OT:</b> 804316147<br>             <b>Observaciones:</b><br>Aplomar<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Aplomo<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 5115<br>             <br><b><a href="#" onclick="mostrarFotos('5115'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.594973,-58.423996" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('5115');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
-                popup_c9c01c34e29a8c59fb7c4fbc0315d796.setContent(html_b36318f532fb5972d215456749e4d96d);
+                var html_dfa635109faddafc33af7080923ec4ff = $(`<div id="html_dfa635109faddafc33af7080923ec4ff" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="5115" data-comuna="14">             <b>Dirección:</b> PRINGLES 1470<br>             <b>Comuna:</b> 14<br>             <b>OT:</b> 804316147<br>             <b>Observaciones:</b><br>Aplomar<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Aplomo<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 5115<br>             <br><b><a href="#" onclick="mostrarFotos('5115'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.594973,-58.423996" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('5115');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
+                popup_b0948cc209d12ff19e6123903fd9ad35.setContent(html_dfa635109faddafc33af7080923ec4ff);
             
         
 
-        marker_d2cc325cee2a1c57ff05f291f7f0c817.bindPopup(popup_c9c01c34e29a8c59fb7c4fbc0315d796)
+        marker_3278c2e097712765c320ec04eb7a1318.bindPopup(popup_b0948cc209d12ff19e6123903fd9ad35)
         ;
 
         
     
     
-                marker_d2cc325cee2a1c57ff05f291f7f0c817.setIcon(icon_1322b5b3196acf1c2f089df9200d1a24);
+                marker_3278c2e097712765c320ec04eb7a1318.setIcon(icon_2ea8144142958c7904fc3b6114c8b3b0);
             
     
-            var marker_11ec5baa39ff44be7effbc7c86aa8915 = L.marker(
+            var marker_16645cbe5f61492d1a0e081f1bc72cab = L.marker(
                 [-34.593761, -58.393185],
                 {
 }
-            ).addTo(marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2);
+            ).addTo(marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7);
         
     
-            var icon_964395533e3abbed53ef00273da236bf = L.AwesomeMarkers.icon(
+            var icon_011e3a88b2b7bd6d81b9e1e321a86bdb = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -2397,34 +2397,34 @@
             );
         
     
-        var popup_7dd57754b0c1133dc6a955113188c7ee = L.popup({
+        var popup_bf8f21cfa14125a6665e96c3d70c1ca7 = L.popup({
   "maxWidth": 200,
 });
 
         
             
-                var html_c89dfb8da864d5c501b9cdfd9157075d = $(`<div id="html_c89dfb8da864d5c501b9cdfd9157075d" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="5488" data-comuna="2">             <b>Dirección:</b> JUNCAL 1801<br>             <b>Comuna:</b> 2<br>             <b>OT:</b> 804497961<br>             <b>Observaciones:</b><br>Columna Inclinada<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Aplomo<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Terminal<br>             <b>Caso:</b> 5488<br>             <br><b><a href="#" onclick="mostrarFotos('5488'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.593761,-58.393185" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('5488');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
-                popup_7dd57754b0c1133dc6a955113188c7ee.setContent(html_c89dfb8da864d5c501b9cdfd9157075d);
+                var html_87f61cdfc3cd7dd7456a1c1d660adc77 = $(`<div id="html_87f61cdfc3cd7dd7456a1c1d660adc77" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="5488" data-comuna="2">             <b>Dirección:</b> JUNCAL 1801<br>             <b>Comuna:</b> 2<br>             <b>OT:</b> 804497961<br>             <b>Observaciones:</b><br>Columna Inclinada<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Aplomo<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Terminal<br>             <b>Caso:</b> 5488<br>             <br><b><a href="#" onclick="mostrarFotos('5488'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.593761,-58.393185" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('5488');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
+                popup_bf8f21cfa14125a6665e96c3d70c1ca7.setContent(html_87f61cdfc3cd7dd7456a1c1d660adc77);
             
         
 
-        marker_11ec5baa39ff44be7effbc7c86aa8915.bindPopup(popup_7dd57754b0c1133dc6a955113188c7ee)
+        marker_16645cbe5f61492d1a0e081f1bc72cab.bindPopup(popup_bf8f21cfa14125a6665e96c3d70c1ca7)
         ;
 
         
     
     
-                marker_11ec5baa39ff44be7effbc7c86aa8915.setIcon(icon_964395533e3abbed53ef00273da236bf);
+                marker_16645cbe5f61492d1a0e081f1bc72cab.setIcon(icon_011e3a88b2b7bd6d81b9e1e321a86bdb);
             
     
-            var marker_17e9c41af00f2d40c0dba0502b82d72a = L.marker(
+            var marker_d3fced24f06dcd32ebc4cc9ffff5407f = L.marker(
                 [-34.591926, -58.397031],
                 {
 }
-            ).addTo(marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2);
+            ).addTo(marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7);
         
     
-            var icon_cf7cb9a55b99cfc889a35db1a454f7c0 = L.AwesomeMarkers.icon(
+            var icon_541eb56cf82c65f46a3bf15539fd6565 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -2435,34 +2435,34 @@
             );
         
     
-        var popup_c20b6d87509b218cc8c18ee609d74239 = L.popup({
+        var popup_03574d0f3654c4a1b1b091d5c72a205f = L.popup({
   "maxWidth": 216,
 });
 
         
             
-                var html_b3a6ead8817367c52e0682f08e7b5a3a = $(`<div id="html_b3a6ead8817367c52e0682f08e7b5a3a" style="width: 100.0%; height: 100.0%;">         <div style='width: 216px; font: 12px Arial;' data-caso="5566" data-comuna="2">             <b>Dirección:</b> URIBURU JOSE E., PRES. 1415<br>             <b>Comuna:</b> 2<br>             <b>OT:</b> 804634219<br>             <b>Observaciones:</b><br>Picada<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 5566<br>             <br><b><a href="#" onclick="mostrarFotos('5566'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.591926,-58.397031" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('5566');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
-                popup_c20b6d87509b218cc8c18ee609d74239.setContent(html_b3a6ead8817367c52e0682f08e7b5a3a);
+                var html_2cf341901a4d7c47f25b109a8df18167 = $(`<div id="html_2cf341901a4d7c47f25b109a8df18167" style="width: 100.0%; height: 100.0%;">         <div style='width: 216px; font: 12px Arial;' data-caso="5566" data-comuna="2">             <b>Dirección:</b> URIBURU JOSE E., PRES. 1415<br>             <b>Comuna:</b> 2<br>             <b>OT:</b> 804634219<br>             <b>Observaciones:</b><br>Picada<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 5566<br>             <br><b><a href="#" onclick="mostrarFotos('5566'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.591926,-58.397031" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('5566');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
+                popup_03574d0f3654c4a1b1b091d5c72a205f.setContent(html_2cf341901a4d7c47f25b109a8df18167);
             
         
 
-        marker_17e9c41af00f2d40c0dba0502b82d72a.bindPopup(popup_c20b6d87509b218cc8c18ee609d74239)
+        marker_d3fced24f06dcd32ebc4cc9ffff5407f.bindPopup(popup_03574d0f3654c4a1b1b091d5c72a205f)
         ;
 
         
     
     
-                marker_17e9c41af00f2d40c0dba0502b82d72a.setIcon(icon_cf7cb9a55b99cfc889a35db1a454f7c0);
+                marker_d3fced24f06dcd32ebc4cc9ffff5407f.setIcon(icon_541eb56cf82c65f46a3bf15539fd6565);
             
     
-            var marker_ce39627298a4f26c984bb60edefc5b03 = L.marker(
+            var marker_b0a58520f72d19089bc07a1c5a13e3db = L.marker(
                 [-34.624285, -58.396135],
                 {
 }
-            ).addTo(marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2);
+            ).addTo(marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7);
         
     
-            var icon_93ce5059e37e8a4a555e4882f5649f4b = L.AwesomeMarkers.icon(
+            var icon_e6df3eb398f1d48517ba1b51a27d6f51 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -2473,34 +2473,34 @@
             );
         
     
-        var popup_ca7b002f4e9c46dd48788dceeb7f37fd = L.popup({
+        var popup_2978c9649d8e83c84ce870f456caf185 = L.popup({
   "maxWidth": 200,
 });
 
         
             
-                var html_8386f28d2f1e5b6a5e1bf19f72734ce0 = $(`<div id="html_8386f28d2f1e5b6a5e1bf19f72734ce0" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="5657" data-comuna="3">             <b>Dirección:</b> COCHABAMBA 2207<br>             <b>Comuna:</b> 3<br>             <b>OT:</b> 804903806<br>             <b>Observaciones:</b><br>picada<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 5657<br>             <br><b><a href="#" onclick="mostrarFotos('5657'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.624285,-58.396135" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('5657');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
-                popup_ca7b002f4e9c46dd48788dceeb7f37fd.setContent(html_8386f28d2f1e5b6a5e1bf19f72734ce0);
+                var html_d19402ae25a53b32f54d2992ebd253ff = $(`<div id="html_d19402ae25a53b32f54d2992ebd253ff" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="5657" data-comuna="3">             <b>Dirección:</b> COCHABAMBA 2207<br>             <b>Comuna:</b> 3<br>             <b>OT:</b> 804903806<br>             <b>Observaciones:</b><br>picada<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 5657<br>             <br><b><a href="#" onclick="mostrarFotos('5657'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.624285,-58.396135" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('5657');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
+                popup_2978c9649d8e83c84ce870f456caf185.setContent(html_d19402ae25a53b32f54d2992ebd253ff);
             
         
 
-        marker_ce39627298a4f26c984bb60edefc5b03.bindPopup(popup_ca7b002f4e9c46dd48788dceeb7f37fd)
+        marker_b0a58520f72d19089bc07a1c5a13e3db.bindPopup(popup_2978c9649d8e83c84ce870f456caf185)
         ;
 
         
     
     
-                marker_ce39627298a4f26c984bb60edefc5b03.setIcon(icon_93ce5059e37e8a4a555e4882f5649f4b);
+                marker_b0a58520f72d19089bc07a1c5a13e3db.setIcon(icon_e6df3eb398f1d48517ba1b51a27d6f51);
             
     
-            var marker_82db999354d837d8e39bd0268e3c581a = L.marker(
+            var marker_01656551774a19a63d90d57f3d1925f0 = L.marker(
                 [-34.61683, -58.401202],
                 {
 }
-            ).addTo(marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2);
+            ).addTo(marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7);
         
     
-            var icon_79c421fab998a01da8ce2c3758b6d94e = L.AwesomeMarkers.icon(
+            var icon_4506912bfd60e923853cd26c76053bc7 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -2511,34 +2511,34 @@
             );
         
     
-        var popup_1ef818c396c49fc8ecc4f456bb880c55 = L.popup({
+        var popup_4851d7248238a1b36664ad9a63529f76 = L.popup({
   "maxWidth": 200,
 });
 
         
             
-                var html_4c32168b6ff48afe2b6a5873b13b96d5 = $(`<div id="html_4c32168b6ff48afe2b6a5873b13b96d5" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="5681" data-comuna="3">             <b>Dirección:</b> ALBERTI 621<br>             <b>Comuna:</b> 3<br>             <b>OT:</b> 805507259<br>             <b>Observaciones:</b><br>Picada<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 5681<br>             <br><b><a href="#" onclick="mostrarFotos('5681'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.61683,-58.401202" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('5681');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
-                popup_1ef818c396c49fc8ecc4f456bb880c55.setContent(html_4c32168b6ff48afe2b6a5873b13b96d5);
+                var html_07516cf6bf971bffe29972fceb1d68f9 = $(`<div id="html_07516cf6bf971bffe29972fceb1d68f9" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="5681" data-comuna="3">             <b>Dirección:</b> ALBERTI 621<br>             <b>Comuna:</b> 3<br>             <b>OT:</b> 805507259<br>             <b>Observaciones:</b><br>Picada<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 5681<br>             <br><b><a href="#" onclick="mostrarFotos('5681'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.61683,-58.401202" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('5681');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
+                popup_4851d7248238a1b36664ad9a63529f76.setContent(html_07516cf6bf971bffe29972fceb1d68f9);
             
         
 
-        marker_82db999354d837d8e39bd0268e3c581a.bindPopup(popup_1ef818c396c49fc8ecc4f456bb880c55)
+        marker_01656551774a19a63d90d57f3d1925f0.bindPopup(popup_4851d7248238a1b36664ad9a63529f76)
         ;
 
         
     
     
-                marker_82db999354d837d8e39bd0268e3c581a.setIcon(icon_79c421fab998a01da8ce2c3758b6d94e);
+                marker_01656551774a19a63d90d57f3d1925f0.setIcon(icon_4506912bfd60e923853cd26c76053bc7);
             
     
-            var marker_1e025f27de9745701a27dde2a9fd58ff = L.marker(
+            var marker_d812bd54e54b33df9a407b14692bb563 = L.marker(
                 [-34.617946, -58.406628],
                 {
 }
-            ).addTo(marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2);
+            ).addTo(marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7);
         
     
-            var icon_2967569afb834c4304f6936c0f79c1c4 = L.AwesomeMarkers.icon(
+            var icon_52c065e803687a8f36deb000afbc822d = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -2549,34 +2549,34 @@
             );
         
     
-        var popup_473ebddef13e136484aac491f6f0535e = L.popup({
+        var popup_84c10120823ae519bf37ca03922b1bf7 = L.popup({
   "maxWidth": 200,
 });
 
         
             
-                var html_c2456641e3d55be7093df2affcfe519b = $(`<div id="html_c2456641e3d55be7093df2affcfe519b" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="5683" data-comuna="3">             <b>Dirección:</b> DEAN FUNES 607<br>             <b>Comuna:</b> 3<br>             <b>OT:</b> 805507316<br>             <b>Observaciones:</b><br>Picada<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 5683<br>             <br><b><a href="#" onclick="mostrarFotos('5683'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.617946,-58.406628" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('5683');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
-                popup_473ebddef13e136484aac491f6f0535e.setContent(html_c2456641e3d55be7093df2affcfe519b);
+                var html_221c38dd269c78bc4778578097cea86b = $(`<div id="html_221c38dd269c78bc4778578097cea86b" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="5683" data-comuna="3">             <b>Dirección:</b> DEAN FUNES 607<br>             <b>Comuna:</b> 3<br>             <b>OT:</b> 805507316<br>             <b>Observaciones:</b><br>Picada<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 5683<br>             <br><b><a href="#" onclick="mostrarFotos('5683'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.617946,-58.406628" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('5683');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
+                popup_84c10120823ae519bf37ca03922b1bf7.setContent(html_221c38dd269c78bc4778578097cea86b);
             
         
 
-        marker_1e025f27de9745701a27dde2a9fd58ff.bindPopup(popup_473ebddef13e136484aac491f6f0535e)
+        marker_d812bd54e54b33df9a407b14692bb563.bindPopup(popup_84c10120823ae519bf37ca03922b1bf7)
         ;
 
         
     
     
-                marker_1e025f27de9745701a27dde2a9fd58ff.setIcon(icon_2967569afb834c4304f6936c0f79c1c4);
+                marker_d812bd54e54b33df9a407b14692bb563.setIcon(icon_52c065e803687a8f36deb000afbc822d);
             
     
-            var marker_749def3310126acc693c2f812d1c4785 = L.marker(
+            var marker_df3b4cf46ab57f2be739f8e6d15dc887 = L.marker(
                 [-34.605604, -58.389389],
                 {
 }
-            ).addTo(marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2);
+            ).addTo(marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7);
         
     
-            var icon_cde22ad613610497e22cecb27e551772 = L.AwesomeMarkers.icon(
+            var icon_74a65ffeee53bfd2ee8d23be9f88e84c = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -2587,34 +2587,34 @@
             );
         
     
-        var popup_e6728d25f9f0599cb7cdeca74e3d54a4 = L.popup({
+        var popup_0165b9fcf662d796de75f36690c53912 = L.popup({
   "maxWidth": 200,
 });
 
         
             
-                var html_f2b415e1abe60f823159a89d57b81863 = $(`<div id="html_f2b415e1abe60f823159a89d57b81863" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="5703" data-comuna="1">             <b>Dirección:</b> MONTEVIDEO 286<br>             <b>Comuna:</b> 1<br>             <b>OT:</b> 805507389<br>             <b>Observaciones:</b><br>Picada<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 5703<br>             <br><b><a href="#" onclick="mostrarFotos('5703'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.605604,-58.389389" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('5703');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
-                popup_e6728d25f9f0599cb7cdeca74e3d54a4.setContent(html_f2b415e1abe60f823159a89d57b81863);
+                var html_06991957077a5a1d59639c50f3ba8bd5 = $(`<div id="html_06991957077a5a1d59639c50f3ba8bd5" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="5703" data-comuna="1">             <b>Dirección:</b> MONTEVIDEO 286<br>             <b>Comuna:</b> 1<br>             <b>OT:</b> 805507389<br>             <b>Observaciones:</b><br>Picada<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 5703<br>             <br><b><a href="#" onclick="mostrarFotos('5703'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.605604,-58.389389" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('5703');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
+                popup_0165b9fcf662d796de75f36690c53912.setContent(html_06991957077a5a1d59639c50f3ba8bd5);
             
         
 
-        marker_749def3310126acc693c2f812d1c4785.bindPopup(popup_e6728d25f9f0599cb7cdeca74e3d54a4)
+        marker_df3b4cf46ab57f2be739f8e6d15dc887.bindPopup(popup_0165b9fcf662d796de75f36690c53912)
         ;
 
         
     
     
-                marker_749def3310126acc693c2f812d1c4785.setIcon(icon_cde22ad613610497e22cecb27e551772);
+                marker_df3b4cf46ab57f2be739f8e6d15dc887.setIcon(icon_74a65ffeee53bfd2ee8d23be9f88e84c);
             
     
-            var marker_45a2acc1be62b4388fc2dcf53c4db695 = L.marker(
+            var marker_0bfd4dfdaedd6bd895959811b5f9ed89 = L.marker(
                 [-34.606257, -58.395063],
                 {
 }
-            ).addTo(marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2);
+            ).addTo(marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7);
         
     
-            var icon_c24375318be229a1d4c9e3efe61bd786 = L.AwesomeMarkers.icon(
+            var icon_38e09406ba5e917d9bd8c8f27ceabf88 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -2625,34 +2625,34 @@
             );
         
     
-        var popup_9af497a5dbac3a1f58c0cdde65f0322e = L.popup({
+        var popup_c088ecf790ac1a39ef0110eb37bfb062 = L.popup({
   "maxWidth": 200,
 });
 
         
             
-                var html_8c78c62beac1e774f2ef0bd06bce1361 = $(`<div id="html_8c78c62beac1e774f2ef0bd06bce1361" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="5839" data-comuna="3">             <b>Dirección:</b> AYACUCHO 267<br>             <b>Comuna:</b> 3<br>             <b>OT:</b> 806926385<br>             <b>Observaciones:</b><br>Colocar columna y dar aviso para traspaso de nodo teco<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Nodo Teco<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 5839<br>             <br><b><a href="#" onclick="mostrarFotos('5839'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.606257,-58.395063" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('5839');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
-                popup_9af497a5dbac3a1f58c0cdde65f0322e.setContent(html_8c78c62beac1e774f2ef0bd06bce1361);
+                var html_d17c212d21f0736b861d423388c328c6 = $(`<div id="html_d17c212d21f0736b861d423388c328c6" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="5839" data-comuna="3">             <b>Dirección:</b> AYACUCHO 267<br>             <b>Comuna:</b> 3<br>             <b>OT:</b> 806926385<br>             <b>Observaciones:</b><br>Colocar columna y dar aviso para traspaso de nodo teco<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Nodo Teco<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 5839<br>             <br><b><a href="#" onclick="mostrarFotos('5839'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.606257,-58.395063" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('5839');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
+                popup_c088ecf790ac1a39ef0110eb37bfb062.setContent(html_d17c212d21f0736b861d423388c328c6);
             
         
 
-        marker_45a2acc1be62b4388fc2dcf53c4db695.bindPopup(popup_9af497a5dbac3a1f58c0cdde65f0322e)
+        marker_0bfd4dfdaedd6bd895959811b5f9ed89.bindPopup(popup_c088ecf790ac1a39ef0110eb37bfb062)
         ;
 
         
     
     
-                marker_45a2acc1be62b4388fc2dcf53c4db695.setIcon(icon_c24375318be229a1d4c9e3efe61bd786);
+                marker_0bfd4dfdaedd6bd895959811b5f9ed89.setIcon(icon_38e09406ba5e917d9bd8c8f27ceabf88);
             
     
-            var marker_eed901f65f7484d70f757ccb4d7d7bfc = L.marker(
+            var marker_1571796a9fea53385eae7a7ddb604d68 = L.marker(
                 [-34.591006, -58.407673],
                 {
 }
-            ).addTo(marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2);
+            ).addTo(marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7);
         
     
-            var icon_35d7764a92403867f2a65d298ceb235b = L.AwesomeMarkers.icon(
+            var icon_7971cdf0bea922e29d7529826c6a09b4 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -2663,34 +2663,34 @@
             );
         
     
-        var popup_d95b5a9608fca799d6b6d02957d8ed79 = L.popup({
+        var popup_333e0f3b8d3c0b7cab3c1d1cdc23d30f = L.popup({
   "maxWidth": 200,
 });
 
         
             
-                var html_fecd8100cf78d65d681e6d3b2ad9561d = $(`<div id="html_fecd8100cf78d65d681e6d3b2ad9561d" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="5844" data-comuna="14">             <b>Dirección:</b> SANTA FE AV. 2979<br>             <b>Comuna:</b> 14<br>             <b>OT:</b> 806926475<br>             <b>Observaciones:</b><br>Picada<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 5844<br>             <br><b><a href="#" onclick="mostrarFotos('5844'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.591006,-58.407673" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('5844');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
-                popup_d95b5a9608fca799d6b6d02957d8ed79.setContent(html_fecd8100cf78d65d681e6d3b2ad9561d);
+                var html_7e759ca01442e85cd73c5d4d6a3c71bc = $(`<div id="html_7e759ca01442e85cd73c5d4d6a3c71bc" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="5844" data-comuna="14">             <b>Dirección:</b> SANTA FE AV. 2979<br>             <b>Comuna:</b> 14<br>             <b>OT:</b> 806926475<br>             <b>Observaciones:</b><br>Picada<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 5844<br>             <br><b><a href="#" onclick="mostrarFotos('5844'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.591006,-58.407673" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('5844');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
+                popup_333e0f3b8d3c0b7cab3c1d1cdc23d30f.setContent(html_7e759ca01442e85cd73c5d4d6a3c71bc);
             
         
 
-        marker_eed901f65f7484d70f757ccb4d7d7bfc.bindPopup(popup_d95b5a9608fca799d6b6d02957d8ed79)
+        marker_1571796a9fea53385eae7a7ddb604d68.bindPopup(popup_333e0f3b8d3c0b7cab3c1d1cdc23d30f)
         ;
 
         
     
     
-                marker_eed901f65f7484d70f757ccb4d7d7bfc.setIcon(icon_35d7764a92403867f2a65d298ceb235b);
+                marker_1571796a9fea53385eae7a7ddb604d68.setIcon(icon_7971cdf0bea922e29d7529826c6a09b4);
             
     
-            var marker_9772f2f6364e624f672dcb4fcff29adc = L.marker(
+            var marker_9f8a17a988d5b019a9da6ce07f818975 = L.marker(
                 [-34.595466, -58.406566],
                 {
 }
-            ).addTo(marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2);
+            ).addTo(marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7);
         
     
-            var icon_1e977bd7b3d0544b45ba147a80eac211 = L.AwesomeMarkers.icon(
+            var icon_21492a425e6139f009cb67677ba49edd = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -2701,34 +2701,34 @@
             );
         
     
-        var popup_45c9ce340ddeeb056817e7d4210dcf8b = L.popup({
+        var popup_c1219daaec6794736c245f134fb84bc8 = L.popup({
   "maxWidth": 304,
 });
 
         
             
-                var html_8c20a69b7b78591938130ccac5eceb4d = $(`<div id="html_8c20a69b7b78591938130ccac5eceb4d" style="width: 100.0%; height: 100.0%;">         <div style='width: 304px; font: 12px Arial;' data-caso="5859" data-comuna="2">             <b>Dirección:</b> MANSILLA, LUCIO NORBERTO, GENERAL 2794<br>             <b>Comuna:</b> 2<br>             <b>OT:</b> 806926477<br>             <b>Observaciones:</b><br>Picada<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 5859<br>             <br><b><a href="#" onclick="mostrarFotos('5859'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.595466,-58.406566" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('5859');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
-                popup_45c9ce340ddeeb056817e7d4210dcf8b.setContent(html_8c20a69b7b78591938130ccac5eceb4d);
+                var html_75083e2eb9c2c245a6f57ec45538067b = $(`<div id="html_75083e2eb9c2c245a6f57ec45538067b" style="width: 100.0%; height: 100.0%;">         <div style='width: 304px; font: 12px Arial;' data-caso="5859" data-comuna="2">             <b>Dirección:</b> MANSILLA, LUCIO NORBERTO, GENERAL 2794<br>             <b>Comuna:</b> 2<br>             <b>OT:</b> 806926477<br>             <b>Observaciones:</b><br>Picada<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 5859<br>             <br><b><a href="#" onclick="mostrarFotos('5859'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.595466,-58.406566" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('5859');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
+                popup_c1219daaec6794736c245f134fb84bc8.setContent(html_75083e2eb9c2c245a6f57ec45538067b);
             
         
 
-        marker_9772f2f6364e624f672dcb4fcff29adc.bindPopup(popup_45c9ce340ddeeb056817e7d4210dcf8b)
+        marker_9f8a17a988d5b019a9da6ce07f818975.bindPopup(popup_c1219daaec6794736c245f134fb84bc8)
         ;
 
         
     
     
-                marker_9772f2f6364e624f672dcb4fcff29adc.setIcon(icon_1e977bd7b3d0544b45ba147a80eac211);
+                marker_9f8a17a988d5b019a9da6ce07f818975.setIcon(icon_21492a425e6139f009cb67677ba49edd);
             
     
-            var marker_e442a86186afae678f99da41cba35edf = L.marker(
+            var marker_b228e35a04ca1ea932b8727e0dec9df5 = L.marker(
                 [-34.619396, -58.412417],
                 {
 }
-            ).addTo(marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2);
+            ).addTo(marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7);
         
     
-            var icon_81c6fe0813d9a9f3a2e189350ebc5498 = L.AwesomeMarkers.icon(
+            var icon_4863d502c421b50d20e2642987b8991e = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -2739,34 +2739,34 @@
             );
         
     
-        var popup_3490555b49ce70c01e7b54bc0f49fb87 = L.popup({
+        var popup_21f1b13bfbfae75f4528affc528d2796 = L.popup({
   "maxWidth": 200,
 });
 
         
             
-                var html_9869d0e0586011cc95a7212854f0db35 = $(`<div id="html_9869d0e0586011cc95a7212854f0db35" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="5811" data-comuna="3">             <b>Dirección:</b> MEXICO 3290<br>             <b>Comuna:</b> 3<br>             <b>OT:</b> 807005375<br>             <b>Observaciones:</b><br>Aplomar columna<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Aplomo<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Terminal<br>             <b>Caso:</b> 5811<br>             <br><b><a href="#" onclick="mostrarFotos('5811'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.619396,-58.412417" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('5811');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
-                popup_3490555b49ce70c01e7b54bc0f49fb87.setContent(html_9869d0e0586011cc95a7212854f0db35);
+                var html_4565fbd3c6d3104aa923e8179a5e0720 = $(`<div id="html_4565fbd3c6d3104aa923e8179a5e0720" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="5811" data-comuna="3">             <b>Dirección:</b> MEXICO 3290<br>             <b>Comuna:</b> 3<br>             <b>OT:</b> 807005375<br>             <b>Observaciones:</b><br>Aplomar columna<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Aplomo<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Terminal<br>             <b>Caso:</b> 5811<br>             <br><b><a href="#" onclick="mostrarFotos('5811'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.619396,-58.412417" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('5811');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
+                popup_21f1b13bfbfae75f4528affc528d2796.setContent(html_4565fbd3c6d3104aa923e8179a5e0720);
             
         
 
-        marker_e442a86186afae678f99da41cba35edf.bindPopup(popup_3490555b49ce70c01e7b54bc0f49fb87)
+        marker_b228e35a04ca1ea932b8727e0dec9df5.bindPopup(popup_21f1b13bfbfae75f4528affc528d2796)
         ;
 
         
     
     
-                marker_e442a86186afae678f99da41cba35edf.setIcon(icon_81c6fe0813d9a9f3a2e189350ebc5498);
+                marker_b228e35a04ca1ea932b8727e0dec9df5.setIcon(icon_4863d502c421b50d20e2642987b8991e);
             
     
-            var marker_9478d6144d088262eb1ff7211b2949ae = L.marker(
+            var marker_a8d852309c2154c86ab97131038f9598 = L.marker(
                 [-34.567086, -58.450724],
                 {
 }
-            ).addTo(marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2);
+            ).addTo(marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7);
         
     
-            var icon_9737b2154ae7fe28309af65d15ca4bd4 = L.AwesomeMarkers.icon(
+            var icon_ea312ad1210a8eec39d873dcfeadc317 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -2777,34 +2777,34 @@
             );
         
     
-        var popup_0f93c94e739a9f21f980cfb7a82916ea = L.popup({
+        var popup_26b1289962162d0b54958d0b02b2f7dc = L.popup({
   "maxWidth": 200,
 });
 
         
             
-                var html_2ac4af18b7e64a8c4bbd00eed9ca71f7 = $(`<div id="html_2ac4af18b7e64a8c4bbd00eed9ca71f7" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="5885" data-comuna="13">             <b>Dirección:</b> CABILDO AV. 1500<br>             <b>Comuna:</b> 13<br>             <b>OT:</b> 806944768<br>             <b>Observaciones:</b><br>Picada<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 5885<br>             <br><b><a href="#" onclick="mostrarFotos('5885'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.567086,-58.450724" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('5885');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
-                popup_0f93c94e739a9f21f980cfb7a82916ea.setContent(html_2ac4af18b7e64a8c4bbd00eed9ca71f7);
+                var html_4bad27c1c113aaa46ae018113e931ba8 = $(`<div id="html_4bad27c1c113aaa46ae018113e931ba8" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="5885" data-comuna="13">             <b>Dirección:</b> CABILDO AV. 1500<br>             <b>Comuna:</b> 13<br>             <b>OT:</b> 806944768<br>             <b>Observaciones:</b><br>Picada<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 5885<br>             <br><b><a href="#" onclick="mostrarFotos('5885'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.567086,-58.450724" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('5885');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
+                popup_26b1289962162d0b54958d0b02b2f7dc.setContent(html_4bad27c1c113aaa46ae018113e931ba8);
             
         
 
-        marker_9478d6144d088262eb1ff7211b2949ae.bindPopup(popup_0f93c94e739a9f21f980cfb7a82916ea)
+        marker_a8d852309c2154c86ab97131038f9598.bindPopup(popup_26b1289962162d0b54958d0b02b2f7dc)
         ;
 
         
     
     
-                marker_9478d6144d088262eb1ff7211b2949ae.setIcon(icon_9737b2154ae7fe28309af65d15ca4bd4);
+                marker_a8d852309c2154c86ab97131038f9598.setIcon(icon_ea312ad1210a8eec39d873dcfeadc317);
             
     
-            var marker_300ceadb8631effff388b413b23bf69c = L.marker(
+            var marker_cdf0681edb30fa646764e13039d9e417 = L.marker(
                 [-34.556786, -58.46522],
                 {
 }
-            ).addTo(marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2);
+            ).addTo(marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7);
         
     
-            var icon_ecdf708d2680e907e806f2675b12568e = L.AwesomeMarkers.icon(
+            var icon_e0ff077221f05baf2baef9070a6a7b75 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -2815,34 +2815,34 @@
             );
         
     
-        var popup_ba2382bbda29b2bb0185c2edc4e4ed15 = L.popup({
+        var popup_08eb339a72ab55c6851223371e4b4ab8 = L.popup({
   "maxWidth": 200,
 });
 
         
             
-                var html_fc4ed77c86818ac61a26ee23a562c6cb = $(`<div id="html_fc4ed77c86818ac61a26ee23a562c6cb" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="5883" data-comuna="13">             <b>Dirección:</b> CONGRESO AV. 2699<br>             <b>Comuna:</b> 13<br>             <b>OT:</b> 806944763<br>             <b>Observaciones:</b><br>Picada<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 5883<br>             <br><b><a href="#" onclick="mostrarFotos('5883'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.556786,-58.46522" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('5883');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
-                popup_ba2382bbda29b2bb0185c2edc4e4ed15.setContent(html_fc4ed77c86818ac61a26ee23a562c6cb);
+                var html_40eaba32a4def1c972f97aa217f5a7dc = $(`<div id="html_40eaba32a4def1c972f97aa217f5a7dc" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="5883" data-comuna="13">             <b>Dirección:</b> CONGRESO AV. 2699<br>             <b>Comuna:</b> 13<br>             <b>OT:</b> 806944763<br>             <b>Observaciones:</b><br>Picada<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 5883<br>             <br><b><a href="#" onclick="mostrarFotos('5883'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.556786,-58.46522" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('5883');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
+                popup_08eb339a72ab55c6851223371e4b4ab8.setContent(html_40eaba32a4def1c972f97aa217f5a7dc);
             
         
 
-        marker_300ceadb8631effff388b413b23bf69c.bindPopup(popup_ba2382bbda29b2bb0185c2edc4e4ed15)
+        marker_cdf0681edb30fa646764e13039d9e417.bindPopup(popup_08eb339a72ab55c6851223371e4b4ab8)
         ;
 
         
     
     
-                marker_300ceadb8631effff388b413b23bf69c.setIcon(icon_ecdf708d2680e907e806f2675b12568e);
+                marker_cdf0681edb30fa646764e13039d9e417.setIcon(icon_e0ff077221f05baf2baef9070a6a7b75);
             
     
-            var marker_726131072880f56b64f31681aa75d0f3 = L.marker(
+            var marker_bbf599543877f066bb765bab54384e08 = L.marker(
                 [-34.626628, -58.41193],
                 {
 }
-            ).addTo(marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2);
+            ).addTo(marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7);
         
     
-            var icon_5d8a7afde0d8cc101e8f6b673e5f8c92 = L.AwesomeMarkers.icon(
+            var icon_d3a81b50a05ffca1096c7103c2b6c069 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -2853,34 +2853,34 @@
             );
         
     
-        var popup_1c47084c0b8b2dfc07562f521fec2150 = L.popup({
+        var popup_1b1b804116f223eac7e403612513606f = L.popup({
   "maxWidth": 200,
 });
 
         
             
-                var html_4917fffeea35ff5b3e7d203d6a5d4324 = $(`<div id="html_4917fffeea35ff5b3e7d203d6a5d4324" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="5940" data-comuna="5">             <b>Dirección:</b> SANCHEZ DE LORIA 1406<br>             <b>Comuna:</b> 5<br>             <b>OT:</b> 807044148<br>             <b>Observaciones:</b><br>Columna con base corroída<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Terminal<br>             <b>Caso:</b> 5940<br>             <br><b><a href="#" onclick="mostrarFotos('5940'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.626628,-58.41193" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('5940');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
-                popup_1c47084c0b8b2dfc07562f521fec2150.setContent(html_4917fffeea35ff5b3e7d203d6a5d4324);
+                var html_bc664275a672895762e358df3d7d6219 = $(`<div id="html_bc664275a672895762e358df3d7d6219" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="5940" data-comuna="5">             <b>Dirección:</b> SANCHEZ DE LORIA 1406<br>             <b>Comuna:</b> 5<br>             <b>OT:</b> 807044148<br>             <b>Observaciones:</b><br>Columna con base corroída<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Terminal<br>             <b>Caso:</b> 5940<br>             <br><b><a href="#" onclick="mostrarFotos('5940'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.626628,-58.41193" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('5940');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
+                popup_1b1b804116f223eac7e403612513606f.setContent(html_bc664275a672895762e358df3d7d6219);
             
         
 
-        marker_726131072880f56b64f31681aa75d0f3.bindPopup(popup_1c47084c0b8b2dfc07562f521fec2150)
+        marker_bbf599543877f066bb765bab54384e08.bindPopup(popup_1b1b804116f223eac7e403612513606f)
         ;
 
         
     
     
-                marker_726131072880f56b64f31681aa75d0f3.setIcon(icon_5d8a7afde0d8cc101e8f6b673e5f8c92);
+                marker_bbf599543877f066bb765bab54384e08.setIcon(icon_d3a81b50a05ffca1096c7103c2b6c069);
             
     
-            var marker_b1cfe94a2e28ace3b923ec66d07a78aa = L.marker(
+            var marker_e9b0b0b70097d91526bb17afc01ca1b9 = L.marker(
                 [-34.625307, -58.482514],
                 {
 }
-            ).addTo(marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2);
+            ).addTo(marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7);
         
     
-            var icon_4d75852439b0c644941b81002c7a2176 = L.AwesomeMarkers.icon(
+            var icon_93cbbefd4e0c30354308ecb951bc6a8e = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -2891,34 +2891,34 @@
             );
         
     
-        var popup_e56359e7db88e77519e5538a54b9e431 = L.popup({
+        var popup_7f7c7789944e94d122a6b1e0fec3040d = L.popup({
   "maxWidth": 200,
 });
 
         
             
-                var html_c2ddbb03e5bcd236700c1686288650f4 = $(`<div id="html_c2ddbb03e5bcd236700c1686288650f4" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="859" data-comuna="10">             <b>Dirección:</b> Joaquín V González 732<br>             <b>Comuna:</b> 10<br>             <b>OT:</b> 807129355<br>             <b>Observaciones:</b><br>Picada<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 859<br>             <br><b><a href="#" onclick="mostrarFotos('859'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.625307,-58.482514" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('859');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
-                popup_e56359e7db88e77519e5538a54b9e431.setContent(html_c2ddbb03e5bcd236700c1686288650f4);
+                var html_8e9930e49c582385acd2efc3ee2e010d = $(`<div id="html_8e9930e49c582385acd2efc3ee2e010d" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="859" data-comuna="10">             <b>Dirección:</b> Joaquín V González 732<br>             <b>Comuna:</b> 10<br>             <b>OT:</b> 807129355<br>             <b>Observaciones:</b><br>Picada<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Cambio<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Pasante<br>             <b>Caso:</b> 859<br>             <br><b><a href="#" onclick="mostrarFotos('859'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.625307,-58.482514" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('859');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
+                popup_7f7c7789944e94d122a6b1e0fec3040d.setContent(html_8e9930e49c582385acd2efc3ee2e010d);
             
         
 
-        marker_b1cfe94a2e28ace3b923ec66d07a78aa.bindPopup(popup_e56359e7db88e77519e5538a54b9e431)
+        marker_e9b0b0b70097d91526bb17afc01ca1b9.bindPopup(popup_7f7c7789944e94d122a6b1e0fec3040d)
         ;
 
         
     
     
-                marker_b1cfe94a2e28ace3b923ec66d07a78aa.setIcon(icon_4d75852439b0c644941b81002c7a2176);
+                marker_e9b0b0b70097d91526bb17afc01ca1b9.setIcon(icon_93cbbefd4e0c30354308ecb951bc6a8e);
             
     
-            var marker_fb3db10a7e035ff9210530d9ff61a59f = L.marker(
+            var marker_e71e58299222d5dca49c4b6686f99f16 = L.marker(
                 [-34.621605, -58.42226],
                 {
 }
-            ).addTo(marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2);
+            ).addTo(marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7);
         
     
-            var icon_9006d760ff026b9f278183bf2c8528b8 = L.AwesomeMarkers.icon(
+            var icon_3ee90a3511726329e9230c9692ee97a7 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -2929,34 +2929,34 @@
             );
         
     
-        var popup_f2facede47a2f2f5d0c568e4a106e794 = L.popup({
+        var popup_fb4cab4134aed5e10929a8527c97baf9 = L.popup({
   "maxWidth": 200,
 });
 
         
             
-                var html_114de7f7a8e174b407dc049eb64159f2 = $(`<div id="html_114de7f7a8e174b407dc049eb64159f2" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="5951" data-comuna="5">             <b>Dirección:</b> BOCAYUVA, QUINTINO 805<br>             <b>Comuna:</b> 5<br>             <b>OT:</b> 807129364<br>             <b>Observaciones:</b><br>Reparar rienda<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Tensor<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Terminal<br>             <b>Caso:</b> 5951<br>             <br><b><a href="#" onclick="mostrarFotos('5951'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.621605,-58.42226" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('5951');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
-                popup_f2facede47a2f2f5d0c568e4a106e794.setContent(html_114de7f7a8e174b407dc049eb64159f2);
+                var html_5b1296718807e021e363fdda35f3060b = $(`<div id="html_5b1296718807e021e363fdda35f3060b" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="5951" data-comuna="5">             <b>Dirección:</b> BOCAYUVA, QUINTINO 805<br>             <b>Comuna:</b> 5<br>             <b>OT:</b> 807129364<br>             <b>Observaciones:</b><br>Reparar rienda<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Tensor<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Terminal<br>             <b>Caso:</b> 5951<br>             <br><b><a href="#" onclick="mostrarFotos('5951'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.621605,-58.42226" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('5951');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
+                popup_fb4cab4134aed5e10929a8527c97baf9.setContent(html_5b1296718807e021e363fdda35f3060b);
             
         
 
-        marker_fb3db10a7e035ff9210530d9ff61a59f.bindPopup(popup_f2facede47a2f2f5d0c568e4a106e794)
+        marker_e71e58299222d5dca49c4b6686f99f16.bindPopup(popup_fb4cab4134aed5e10929a8527c97baf9)
         ;
 
         
     
     
-                marker_fb3db10a7e035ff9210530d9ff61a59f.setIcon(icon_9006d760ff026b9f278183bf2c8528b8);
+                marker_e71e58299222d5dca49c4b6686f99f16.setIcon(icon_3ee90a3511726329e9230c9692ee97a7);
             
     
-            var marker_a07778db0856d157796426647226ee7f = L.marker(
+            var marker_00a37c7fb40ac120559aea2c39925682 = L.marker(
                 [-34.630143, -58.416352],
                 {
 }
-            ).addTo(marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2);
+            ).addTo(marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7);
         
     
-            var icon_8f8b24cc0b004b0f4b0c7e183d30bbf2 = L.AwesomeMarkers.icon(
+            var icon_a33b79a128f519b39224da42dceb47c9 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -2967,27 +2967,27 @@
             );
         
     
-        var popup_530aeb8e8ac94130dfc23eb87d371872 = L.popup({
+        var popup_4309f561f226b1b26a6575e3a79e354e = L.popup({
   "maxWidth": 200,
 });
 
         
             
-                var html_2c6efadfcc1921f9d4d9a314e0088459 = $(`<div id="html_2c6efadfcc1921f9d4d9a314e0088459" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="5970" data-comuna="5">             <b>Dirección:</b> PAVON AV. 3665<br>             <b>Comuna:</b> 5<br>             <b>OT:</b> 807129382<br>             <b>Observaciones:</b><br>Aplomar<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Aplomo<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Terminal<br>             <b>Caso:</b> 5970<br>             <br><b><a href="#" onclick="mostrarFotos('5970'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.630143,-58.416352" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('5970');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
-                popup_530aeb8e8ac94130dfc23eb87d371872.setContent(html_2c6efadfcc1921f9d4d9a314e0088459);
+                var html_18e8403c49b8b6dd00a16ea8ac3a5656 = $(`<div id="html_18e8403c49b8b6dd00a16ea8ac3a5656" style="width: 100.0%; height: 100.0%;">         <div style='width: 200px; font: 12px Arial;' data-caso="5970" data-comuna="5">             <b>Dirección:</b> PAVON AV. 3665<br>             <b>Comuna:</b> 5<br>             <b>OT:</b> 807129382<br>             <b>Observaciones:</b><br>Aplomar<br>             <b>Estado:</b> Pendiente<br>             <b>Tipo de tarea:</b> Aplomo<br>             <b>Equipo:</b> Sin equipos<br>             <b>Tipo de Elemento:</b> Terminal<br>             <b>Caso:</b> 5970<br>             <br><b><a href="#" onclick="mostrarFotos('5970'); return false;" style="font-size: 14px;">Ver Fotos</a></b><br>             <b>Ver en Google Maps:</b> <a href="https://www.google.com/maps?q=-34.630143,-58.416352" target="_blank">Abrir</a><br>             <br><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScuxwrARuhy8VBZMn7fNon_ThghC57SwZUb69NAphF7Bwn29g/viewform" target="_blank" onclick="window.cerrarReclamo('5970');" style="font-size: 14px;">CERRAR RECLAMO</a></b>         </div>         </div>`)[0];
+                popup_4309f561f226b1b26a6575e3a79e354e.setContent(html_18e8403c49b8b6dd00a16ea8ac3a5656);
             
         
 
-        marker_a07778db0856d157796426647226ee7f.bindPopup(popup_530aeb8e8ac94130dfc23eb87d371872)
+        marker_00a37c7fb40ac120559aea2c39925682.bindPopup(popup_4309f561f226b1b26a6575e3a79e354e)
         ;
 
         
     
     
-                marker_a07778db0856d157796426647226ee7f.setIcon(icon_8f8b24cc0b004b0f4b0c7e183d30bbf2);
+                marker_00a37c7fb40ac120559aea2c39925682.setIcon(icon_a33b79a128f519b39224da42dceb47c9);
             
     
-            marker_cluster_d1f1311f87ed53034c41e1de4d44f0a2.addTo(map_b6e89a03f319d22c999180bdc2cf477e);
+            marker_cluster_022cb9b39d73ecad8ab3992ea42a3de7.addTo(map_05d585d6195427bd15e07280565c58f2);
         
 </script>
 </html>
